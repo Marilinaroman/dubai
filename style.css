@@ -209,7 +209,7 @@ footer{
 }
 .historia_inicio{
     display: flex;
-    background-image: url(Imagenes/historia.jpg);
+    background-image: url(./Imagenes/historia.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     width: 100%;
@@ -309,7 +309,7 @@ footer{
 }
 .pag_actividades h1{
     display: flex;
-    background-image: url(Imagenes/actividades.jpg);
+    background-image: url(./Imagenes/actividades.jpg);
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
