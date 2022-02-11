@@ -69,8 +69,8 @@ body{
 .articulo_inicio{
     background-color: #ebb6ae;
     display: inline-flex;
-    width: 100%;
     align-items: center;
+    justify-content: stretch;
 }
 .h1_inicio{
     font-family: 'Lora', serif;
@@ -93,7 +93,7 @@ body{
     }
 }
 .imagen_principal{
-    width: 75%;
+    width: 100%;
 }
 .mapa_dubai{
     display: grid;
@@ -486,6 +486,7 @@ footer{
 }
 /*Estilo pagina contacto*/
 .contendor_contacto{
+    font-size: 1rem;
     display: grid;
     grid-gap:2rem;
     grid-template-rows: 80px auto auto;
@@ -501,12 +502,22 @@ footer{
     margin-top: 80px;
     color: black;
     text-align: center;
-    font-weight: 200;
 }
 .form_contacto{
     display: grid;
     padding: 2rem;
     justify-items: center;
+}
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #f09082;
+    border-color:#f09082;
+}
+.btn-primary:hover{
+    background-color: #f09182c4;
+    border-color:#f1867a;
 }
 /* Estilo pagina quienes somos*/
 .contenedor_quienes_somos{
@@ -596,6 +607,19 @@ footer{
         grid-template-areas: "img1 img2" "img3 img4" "img5 img6";
         justify-items: center;
     }
+    .mapa_dubai{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+    }
+    .mapa_dubai iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
     /* Pagina Historia tablet*/
     .contenedor_historia{
 		grid-template-columns: 100%;
@@ -621,6 +645,20 @@ footer{
     .religion{
 		grid-template-columns: 100%;
 		grid-template-rows: auto;
+    }
+    .expresiones{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        width: 100%;
+        height:0;
+    }
+    .expresiones iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
     }
     /*Pagina actividades tablet*/
     .contenedor_actividades{
@@ -680,10 +718,6 @@ footer{
 /* Estilo mobile*/
 @media only screen and (max-width: 360px){
 	/*Pagina principal mobile*/
-    .mapa_dubai{
-        margin: 1rem;
-        width: 50%;
-    }
     .imagenes_link{
         grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6";
         justify-items: center;
