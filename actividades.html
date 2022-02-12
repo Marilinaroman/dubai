@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividades en Dubai </title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <script defer src="index.js"></script>
 </head>
 <body>
-    <div  class="contenedor_actividades">
-        <header class="header">
+    <div  class="container-fluid contenedor_actividades">
+        <header class="header sticky-top">
             <div>
                 <a class="logo" href="index.html"><img src="Imagenes/logo.png" alt="logo" width="191" height="71"></a>                 
             </div>
@@ -32,168 +34,188 @@
             <h1>Actividades en Dubai</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio iusto explicabo consequuntur sequi, deserunt itaque enim voluptas suscipit quo ipsam.</p>
             <div class="seccion_act">   
-                <h2 class="titulo_h2">Top de los imperdibles de Dubai</h2> 
-                <article id="safari">
-                    <div class="encabezado_safari">
-                        <h3>Safari por el desierto</h3>
-                        <img src="Imagenes/safari 1.jpg" alt="safari en el desierto" width="274" height="175">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ea quibusdam reiciendis ipsam sint quas labore eum! Dolore, atque error.</p>
-                        <a href="contacto.html"><button type="submit">Reservar Tour</button></a>
+                <h2 class="titulo_h2">Top de los imperdibles de Dubai</h2>
+                <div class="card-group row">
+                    <div class="col-sm-6"> 
+                        <article class="card" id="safari">
+                            <div class="card-body encabezado_safari">
+                                <h3 class="card-title">Safari por el desierto</h3>
+                                <img src="Imagenes/safari 1.jpg" alt="safari en el desierto" width="274" height="175">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ea quibusdam reiciendis ipsam sint quas labore eum! Dolore, atque error.</p>
+                                <a href="contacto.html"><button class="btn btn-primary btn-sm" type="submit">Reservar Tour</button></a>
+                            </div>
+                            <section class="card-body info_safari">
+                                <!--Info horarios-->
+                                <img src="imagenes/iconos/reloj.JPG" alt="icono reloj" width="46" height="36">  Horario
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus placeat repellat asperiores iure illo atque ratione quo quidem veniam consequatur.</p>
+                                <!--Info precio-->
+                                <img src="imagenes/iconos/precio.JPG" alt="icono de moneda" width="46" height="38"> Precio
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ipsa?
+                                </p>
+                                <!--Info duración-->
+                                <img src="imagenes/iconos/duracion.JPG" alt="icono de reloj de arena" width="46" height="38"> Duración
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, quas!</p>
+                                <!--Info ubicación-->
+                                <img src="imagenes/iconos/ubicacion.JPG" alt="icono de ubicacion" width="46" height="38"> Ubicación
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, esse!</p>
+                            </section>
+                        </article>
                     </div>
-                    <section class="info_safari">
-                        <!--Info horarios-->
-                        <img src="Imagenes/iconos/reloj.JPG" alt="icono reloj" width="46" height="36">  Horario
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus placeat repellat asperiores iure illo atque ratione quo quidem veniam consequatur.</p>
-                        <!--Info precio-->
-                        <img src="Imagenes/iconos/precio.JPG" alt="icono de moneda" width="46" height="38"> Precio
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ipsa?
-                        </p>
-                        <!--Info duración-->
-                        <img src="Imagenes/iconos/duracion.JPG" alt="icono de reloj de arena" width="46" height="38"> Duración
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, quas!</p>
-                        <!--Info ubicación-->
-                        <img src="Imagenes/iconos/ubicacion.JPG" alt="icono de ubicacion" width="46" height="38"> Ubicación
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, esse!</p>
-                    </section>
-                </article>
-                <article id="parques">
-                    <div class="encabezado_parques">
-                        <h3>Parques acuaticos</h3>
-                        <img src="Imagenes/lost-chambers 3.jpg" alt="Parque acuatico" width="274" height="175">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, repellendus iste. Saepe officiis nulla quibusdam, numquam natus minus dolor expedita.</p>
-                        <a href="contacto.html"><button type="submit">Reservar Tour</button></a>
+                    <div class="col-sm-6">
+                        <article class="card" id="parques">
+                            <div class="card-body encabezado_parques">
+                                <h3 class="card-tittle">Parques acuaticos</h3>
+                                <img src="Imagenes/lost-chambers 3.jpg" alt="Parque acuatico" width="274" height="175">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, repellendus iste. Saepe officiis nulla quibusdam, numquam natus minus dolor expedita.</p>
+                                <a href="contacto.html"><button class="btn btn-primary btn-sm" type="submit">Reservar Tour</button></a>
+                            </div>
+                            <section class="card-body info_parques">
+                                <!--Info horarios-->
+                                <img src="Imagenes/iconos/reloj.JPG" alt="icono reloj" width="46" height="36">  Horario
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus placeat repellat asperiores iure illo atque ratione quo quidem veniam consequatur.</p>
+                                <!--Info precio-->
+                                <img src="Imagenes/iconos/precio.JPG" alt="icono de moneda" width="46" height="38"> Precio
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ipsa?
+                                </p>
+                                <!--Info duración-->
+                                <img src="Imagenes/iconos/duracion.JPG" alt="icono de reloj de arena" width="46" height="38"> Duración
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, quas!</p>
+                                <!--Info ubicación-->
+                                <img src="Imagenes/iconos/ubicacion.JPG" alt="icono de ubicacion" width="46" height="38"> Ubicación
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, esse!</p>
+                            </section>
+                        </article>
                     </div>
-                    <section class="info_parques">
-                        <!--Info horarios-->
-                        <img src="Imagenes/iconos/reloj.JPG" alt="icono reloj" width="46" height="36">  Horario
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus placeat repellat asperiores iure illo atque ratione quo quidem veniam consequatur.</p>
-                        <!--Info precio-->
-                        <img src="Imagenes/iconos/precio.JPG" alt="icono de moneda" width="46" height="38"> Precio
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ipsa?
-                        </p>
-                        <!--Info duración-->
-                        <img src="Imagenes/iconos/duracion.JPG" alt="icono de reloj de arena" width="46" height="38"> Duración
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, quas!</p>
-                        <!--Info ubicación-->
-                        <img src="Imagenes/iconos/ubicacion.JPG" alt="icono de ubicacion" width="46" height="38"> Ubicación
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, esse!</p>
-                    </section>
-                </article>
-                <article id="palmera">
-                    <div class="encabezado_palmera">
-                        <h3>Palmera Jumeirah</h3>
-                        <img src="Imagenes/Palm 1.jpg" alt="Palmera Jumeirah" width="274" height="175">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet consequatur iure quo provident facere nulla necessitatibus natus eius autem quae?</p>
-                        <a href="contacto.html"><button type="submit">Reservar Tour</button></a>
+                </div>
+                <div class="card-group row">
+                    <div class="col-sm-6"> 
+                        <article class="card" id="palmera">
+                                <div class="card-body encabezado_palmera">
+                                    <h3 class="card-title">Palmera Jumeirah</h3>
+                                    <img src="Imagenes/Palm 1.jpg" alt="Palmera Jumeirah" width="274" height="175">
+                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet consequatur iure quo provident facere nulla necessitatibus natus eius autem quae?</p>
+                                    <a href="contacto.html"><button class="btn btn-primary btn-sm" type="submit">Reservar Tour</button></a>
+                                </div>
+                                <section class="card-body info_palmera">
+                                    <!--Info horarios-->
+                                    <img src="Imagenes/iconos/reloj.JPG" alt="icono reloj" width="46" height="36">  Horario
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus placeat repellat asperiores iure illo atque ratione quo quidem veniam consequatur.</p>
+                                    <!--Info precio-->
+                                    <img src="Imagenes/iconos/precio.JPG" alt="icono de moneda" width="46" height="38"> Precio
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ipsa?
+                                    </p>
+                                    <!--Info duración-->
+                                    <img src="Imagenes/iconos/duracion.JPG" alt="icono de reloj de arena" width="46" height="38"> Duración
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, quas!</p>
+                                    <!--Info ubicación-->
+                                    <img src="Imagenes/iconos/ubicacion.JPG" alt="icono de ubicacion" width="46" height="38"> Ubicación
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, esse!</p>
+                                </section>
+                        </article>
                     </div>
-                    <section class="info_palmera">
-                        <!--Info horarios-->
-                        <img src="Imagenes/iconos/reloj.JPG" alt="icono reloj" width="46" height="36">  Horario
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus placeat repellat asperiores iure illo atque ratione quo quidem veniam consequatur.</p>
-                        <!--Info precio-->
-                        <img src="Imagenes/iconos/precio.JPG" alt="icono de moneda" width="46" height="38"> Precio
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ipsa?
-                        </p>
-                        <!--Info duración-->
-                        <img src="Imagenes/iconos/duracion.JPG" alt="icono de reloj de arena" width="46" height="38"> Duración
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, quas!</p>
-                        <!--Info ubicación-->
-                        <img src="Imagenes/iconos/ubicacion.JPG" alt="icono de ubicacion" width="46" height="38"> Ubicación
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, esse!</p>
-                    </section>
-                </article>
-                <article id="mirador">
-                    <div class="encabezado_mirador">
-                        <h3>Miradores del Burj Khalifa</h3>
-                        <img src="Imagenes/Burj-Khalifa-mirador1.jpg" alt="Miradores del Burj Khalifa" width="274" height="175">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi et tempore incidunt molestias ullam impedit blanditiis tempora provident ex quibusdam?</p>
-                        <a href="contacto.html"><button type="submit">Reservar Tour</button></a>
+                    <div class="col-sm-6">
+                        <article class="card" id="mirador">
+                                <div class="card-body encabezado_mirador">
+                                    <h3 class="card-title">Miradores del Burj Khalifa</h3>
+                                    <img src="Imagenes/Burj-Khalifa-mirador1.jpg" alt="Miradores del Burj Khalifa" width="274" height="175">
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi et tempore incidunt molestias ullam impedit blanditiis tempora provident ex quibusdam?</p>
+                                    <a href="contacto.html"><button class="btn btn-primary btn-sm" type="submit">Reservar Tour</button></a>
+                                </div>
+                                <section class="card-body info_mirador">
+                                    <!--Info horarios-->
+                                    <img src="Imagenes/iconos/reloj.JPG" alt="icono reloj" width="46" height="36">  Horario
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus placeat repellat asperiores iure illo atque ratione quo quidem veniam consequatur.</p>
+                                    <!--Info precio-->
+                                    <img src="Imagenes/iconos/precio.JPG" alt="icono de moneda" width="46" height="38"> Precio
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ipsa?
+                                    </p>
+                                    <!--Info duración-->
+                                    <img src="Imagenes/iconos/duracion.JPG" alt="icono de reloj de arena" width="46" height="38"> Duración
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, quas!</p>
+                                    <!--Info ubicación-->
+                                    <img src="Imagenes/iconos/ubicacion.JPG" alt="icono de ubicacion" width="46" height="38"> Ubicación
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, esse!</p>
+                                </section>
+                        </article>
                     </div>
-                    <section class="info_mirador">
-                        <!--Info horarios-->
-                        <img src="Imagenes/iconos/reloj.JPG" alt="icono reloj" width="46" height="36">  Horario
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus placeat repellat asperiores iure illo atque ratione quo quidem veniam consequatur.</p>
-                        <!--Info precio-->
-                        <img src="Imagenes/iconos/precio.JPG" alt="icono de moneda" width="46" height="38"> Precio
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ipsa?
-                        </p>
-                        <!--Info duración-->
-                        <img src="Imagenes/iconos/duracion.JPG" alt="icono de reloj de arena" width="46" height="38"> Duración
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, quas!</p>
-                        <!--Info ubicación-->
-                        <img src="Imagenes/iconos/ubicacion.JPG" alt="icono de ubicacion" width="46" height="38"> Ubicación
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, esse!</p>
-                    </section>
-                </article>
-                <article id="mezquita">
-                    <div class="encabezado_mezquita">
-                        <h3>La Gran Mezquita</h3>
-                        <img src="Imagenes/gran mezquita 1.jpg" alt="La Gran Mezquita" width="274" height="175">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque facere vitae atque necessitatibus! Rem, beatae explicabo tenetur error modi recusandae?</p>
-                        <a href="contacto.html"><button type="submit">Reservar Tour</button></a>
+                <div class="card-group row">
+                    <div class="col-sm-6"> 
+                        <article class="card" id="mezquita">
+                            <div class="card-body encabezado_mezquita">
+                                <h3 class="card-title">La Gran Mezquita</h3>
+                                <img src="Imagenes/gran mezquita 1.jpg" alt="La Gran Mezquita" width="274" height="175">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque facere vitae atque necessitatibus! Rem, beatae explicabo tenetur error modi recusandae?</p>
+                                <a href="contacto.html"><button class="btn btn-primary btn-sm" type="submit">Reservar Tour</button></a>
+                            </div>
+                            <section class="card-body info_mezquita">
+                                <!--Info horarios-->
+                                <img src="Imagenes/iconos/reloj.JPG" alt="icono reloj" width="46" height="36">  Horario
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus placeat repellat asperiores iure illo atque ratione quo quidem veniam consequatur.</p>
+                                <!--Info precio-->
+                                <img src="Imagenes/iconos/precio.JPG" alt="icono de moneda" width="46" height="38"> Precio
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ipsa?
+                                </p>
+                                <!--Info duración-->
+                                <img src="Imagenes/iconos/duracion.JPG" alt="icono de reloj de arena" width="46" height="38"> Duración
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, quas!</p>
+                                <!--Info ubicación-->
+                                <img src="Imagenes/iconos/ubicacion.JPG" alt="icono de ubicacion" width="46" height="38"> Ubicación
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, esse!</p>
+                            </section>
+                        </article>
                     </div>
-                    <section class="info_mezquita">
-                        <!--Info horarios-->
-                        <img src="Imagenes/iconos/reloj.JPG" alt="icono reloj" width="46" height="36">  Horario
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus placeat repellat asperiores iure illo atque ratione quo quidem veniam consequatur.</p>
-                        <!--Info precio-->
-                        <img src="Imagenes/iconos/precio.JPG" alt="icono de moneda" width="46" height="38"> Precio
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ipsa?
-                        </p>
-                        <!--Info duración-->
-                        <img src="Imagenes/iconos/duracion.JPG" alt="icono de reloj de arena" width="46" height="38"> Duración
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, quas!</p>
-                        <!--Info ubicación-->
-                        <img src="Imagenes/iconos/ubicacion.JPG" alt="icono de ubicacion" width="46" height="38"> Ubicación
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, esse!</p>
-                    </section>
-                </article>
-                <article id="rio">
-                    <div class="encabezado_rio">
-                        <h3>Dubai Creek</h3>
-                        <img src="Imagenes/Dubai-creek-port.jpg" alt="Dubai creek" width="274" height="175">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam labore cum ut! Nam repellendus sequi ab dolore fugit dolorem est.</p>
-                        <a href="contacto.html"><button type="submit">Reservar Tour</button></a>
+                    <div class="col-sm-6">
+                        <article class="card" id="rio">
+                            <div class="card-body encabezado_rio">
+                                <h3 class="card-title">Dubai Creek</h3>
+                                <img src="Imagenes/Dubai-creek-port.jpg" alt="Dubai creek" width="274" height="175">
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam labore cum ut! Nam repellendus sequi ab dolore fugit dolorem est.</p>
+                                <a href="contacto.html"><button class="btn btn-primary btn-sm" type="submit">Reservar Tour</button></a>
+                            </div>
+                            <section class="card-body info_rio">
+                                <!--Info horarios-->
+                                <img src="Imagenes/iconos/reloj.JPG" alt="icono reloj" width="46" height="36">  Horario
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus placeat repellat asperiores iure illo atque ratione quo quidem veniam consequatur.</p>
+                                <!--Info precio-->
+                                <img src="Imagenes/iconos/precio.JPG" alt="icono de moneda" width="46" height="38"> Precio
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ipsa?
+                                </p>
+                                <!--Info duración-->
+                                <img src="Imagenes/iconos/duracion.JPG" alt="icono de reloj de arena" width="46" height="38"> Duración
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, quas!</p>
+                                <!--Info ubicación-->
+                                <img src="Imagenes/iconos/ubicacion.JPG" alt="icono de ubicacion" width="46" height="38"> Ubicación
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, esse!</p>
+                            </section>
+                        </article>
                     </div>
-                    <section class="info_rio">
-                        <!--Info horarios-->
-                        <img src="Imagenes/iconos/reloj.JPG" alt="icono reloj" width="46" height="36">  Horario
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus placeat repellat asperiores iure illo atque ratione quo quidem veniam consequatur.</p>
-                        <!--Info precio-->
-                        <img src="Imagenes/iconos/precio.JPG" alt="icono de moneda" width="46" height="38"> Precio
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ipsa?
-                        </p>
-                        <!--Info duración-->
-                        <img src="Imagenes/iconos/duracion.JPG" alt="icono de reloj de arena" width="46" height="38"> Duración
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, quas!</p>
-                        <!--Info ubicación-->
-                        <img src="Imagenes/iconos/ubicacion.JPG" alt="icono de ubicacion" width="46" height="38"> Ubicación
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, esse!</p>
-                    </section>
-                </article>
-                <article id="ski">
-                    <div class="encabezado_ski">
-                        <h3>Ski Dubai</h3>
-                        <img src="Imagenes/ski de dubai 1.jpg" alt="Ski en Dubai" width="274" height="175">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nemo unde consequatur corporis, fugit incidunt assumenda perspiciatis voluptatem quas numquam!</p>
-                        <a href="contacto.html"><button type="submit">Reservar Tour</button></a>
+                <div class="card-group row">
+                    <div class="col-sm-6">
+                        <article class="card" id="ski">
+                            <div class="card-body encabezado_ski">
+                                <h3 class="card-title">Ski Dubai</h3>
+                                <img src="Imagenes/ski de dubai 1.jpg" alt="Ski en Dubai" width="274" height="175">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nemo unde consequatur corporis, fugit incidunt assumenda perspiciatis voluptatem quas numquam!</p>
+                                <a href="contacto.html"><button class="btn btn-primary btn-sm" type="submit">Reservar Tour</button></a>
+                            </div>
+                            <section class="card-body info_ski">
+                                <!--Info horarios-->
+                                <img src="Imagenes/iconos/reloj.JPG" alt="icono reloj" width="46" height="36">  Horario
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus placeat repellat asperiores iure illo atque ratione quo quidem veniam consequatur.</p>
+                                <!--Info precio-->
+                                <img src="Imagenes/iconos/precio.JPG" alt="icono de moneda" width="46" height="38"> Precio
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ipsa?
+                                </p>
+                                <!--Info duración-->
+                                <img src="Imagenes/iconos/duracion.JPG" alt="icono de reloj de arena" width="46" height="38"> Duración
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, quas!</p>
+                                <!--Info ubicación-->
+                                <img src="Imagenes/iconos/ubicacion.JPG" alt="icono de ubicacion" width="46" height="38"> Ubicación
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, esse!</p>
+                            </section>
+                        </article>
                     </div>
-                    <section class="info_ski">
-                        <!--Info horarios-->
-                        <img src="Imagenes/iconos/reloj.JPG" alt="icono reloj" width="46" height="36">  Horario
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus placeat repellat asperiores iure illo atque ratione quo quidem veniam consequatur.</p>
-                        <!--Info precio-->
-                        <img src="Imagenes/iconos/precio.JPG" alt="icono de moneda" width="46" height="38"> Precio
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ipsa?
-                        </p>
-                        <!--Info duración-->
-                        <img src="Imagenes/iconos/duracion.JPG" alt="icono de reloj de arena" width="46" height="38"> Duración
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, quas!</p>
-                        <!--Info ubicación-->
-                        <img src="Imagenes/iconos/ubicacion.JPG" alt="icono de ubicacion" width="46" height="38"> Ubicación
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, esse!</p>
-                    </section>
-                </article>
+                </div>    
             </div>    
         </main>
         <footer class="footer">
@@ -201,8 +223,8 @@
             <div class="suscripcion">
                 <p class="texto_suscripcion">¡SUSCRIBITE A NUESTRA NEWSLETTER!</p>
                 <div class="dato_suscripcion">
-                    <input class="email_suscripcion" type="email" name="email" id="email" placeholder="Tu email">
-                    <button class="boton_suscripcion" type="submit">Suscribirme</button>
+                    <input class="email_suscripcion form-control" type="email" name="email" id="email" placeholder="Tu email">
+                    <button class="boton_suscripcion btn btn-primary btn-sm" type="submit">Suscribirme</button>
                 </div>
             </div>
             <div class="enlaces">
@@ -218,5 +240,7 @@
             </div>
         </footer>
     </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

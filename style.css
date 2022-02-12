@@ -153,6 +153,7 @@ footer{
     height: 25rem;
     background-color: #fff2e4;
     font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
 }
 .suscripcion{
     display: flex;
@@ -205,6 +206,7 @@ footer{
     grid-area: pag_historia;
     font-family: sans-serif;
     color: #666666;
+    overflow: hidden;
     background-color: #f0eeeef3;
 }
 .historia_inicio{
@@ -341,9 +343,8 @@ footer{
     background-color: white;
     grid-area: safari;
     box-shadow: 0 0 0.675rem 0.075rem rgb(0 0 0 / 20%);
-    margin: 40px 100px 40px 100px;
+    margin: 2rem;
     display:grid;
-    grid-template-columns: 2fr 3fr;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -362,9 +363,8 @@ footer{
     grid-area: parques;
     background-color: white;
     box-shadow: 0 0 0.675rem 0.075rem rgb(0 0 0 / 20%);
-    margin: 40px 100px 40px 100px;
+    margin: 2rem;
     display:grid;
-    grid-template-columns: 2fr 3fr;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -383,9 +383,8 @@ footer{
     grid-area: palmera;
     background-color: white;
     box-shadow: 0 0 0.675rem 0.075rem rgb(0 0 0 / 20%);
-    margin: 40px 100px 40px 100px;
+    margin: 2rem;
     display:grid;
-    grid-template-columns: 2fr 3fr;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -404,9 +403,8 @@ footer{
     grid-area: mirador;
     background-color: white;
     box-shadow: 0 0 0.675rem 0.075rem rgb(0 0 0 / 20%);
-    margin: 40px 100px 40px 100px;
+    margin: 2rem;
     display:grid;
-    grid-template-columns: 2fr 3fr;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -425,9 +423,8 @@ footer{
     grid-area: mezquita;
     background-color: white;
     box-shadow: 0 0 0.675rem 0.075rem rgb(0 0 0 / 20%);
-    margin: 40px 100px 40px 100px;
+    margin: 2rem;
     display:grid;
-    grid-template-columns: 2fr 3fr;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -446,9 +443,8 @@ footer{
     grid-area: rio;
     background-color: white;
     box-shadow: 0 0 0.675rem 0.075rem rgb(0 0 0 / 20%);
-    margin: 40px 100px 40px 100px;
+    margin: 2rem;
     display:grid;
-    grid-template-columns: 2fr 3fr;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -467,9 +463,8 @@ footer{
     grid-area: ski;
     background-color: white;
     box-shadow: 0 0 0.675rem 0.075rem rgb(0 0 0 / 20%);
-    margin: 40px 100px 40px 100px;
+    margin: 2rem;
     display:grid;
-    grid-template-columns: 2fr 3fr;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -661,47 +656,57 @@ footer{
         position:absolute;
     }
     /*Pagina actividades tablet*/
-    .contenedor_actividades{
-        grid-template-columns: 100%;
-		grid-template-rows: auto;
-    }
     .pag_actividades h1{
-        margin-top: 4rem;
+        margin-top: 1rem;
     }
     #safari{
-        grid-template-columns: 100%;
         overflow: hidden;
-        margin: 0.5rem;
+        margin: 0.4rem;
+    }
+    .encabezado_safari{
+        padding: 0.2rem;
     }
     #parques{
-        grid-template-columns: 100%;
         overflow: hidden;
-        margin: 0.5rem;
+        margin: 0.4rem;
+    }
+    .encabezado_parques{
+        padding: 0.2rem;
     }
     #palmera{
-        grid-template-columns: 100%;
         overflow: hidden;
-        margin: 0.5rem;
+        margin: 0.4rem;
+    }
+    .encabezado_palmera{
+        padding: 0.2rem;
     }
     #mirador{
-        grid-template-columns: 100%;
         overflow: hidden;
-        margin: 0.5rem;
+        margin: 0.4rem;
+    }
+    .encabezado_mirador{
+        padding: 0.2rem;
     }
     #mezquita{
-        grid-template-columns: 100%;
         overflow: hidden;
-        margin: 0.5rem;
+        margin: 0.4rem;
+    }
+    .encabezado_mezquita{
+        padding: 0.2rem;
     }
     #rio{
-        grid-template-columns: 100%;
         overflow: hidden;
-        margin: 0.5rem;
+        margin: 0.4rem;
+    }
+    .encabezado_rio{
+        padding: 0.2rem;
     }
     #ski{
-        grid-template-columns: 100%;
         overflow: hidden;
-        margin: 0.5rem;
+        margin: 0.4rem;
+    }
+    .encabezado_ski{
+        padding: 0.2rem;
     }
     /*pagina quienes somos tablet*/ 
     .contenedor_quienes_somos{
@@ -709,14 +714,41 @@ footer{
 		grid-template-rows: auto;
     }
     #quienes_somos{
+        margin-top: 3rem;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         overflow: hidden;
         gap: 1rem;
     }
+    #preguntas_frecuentes{
+        overflow: hidden;
+    }
 }
 /* Estilo mobile*/
 @media only screen and (max-width: 360px){
+    /* Footer mobile*/
+    .suscripcion{
+        margin-top: 2rem;
+        padding: 0;
+    }
+    .texto_suscripcion{
+        font-size: small;
+    }
+    .dato_suscripcion{
+        flex-direction: column;
+    }
+    .email_suscripcion{
+        width: 100%;
+    }
+    .link_footer{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 1rem;
+        align-items: flex-start;
+    }
+    .enlaces_redes{
+        margin-top: 1rem;
+    }
 	/*Pagina principal mobile*/
     .imagenes_link{
         grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6";
