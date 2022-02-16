@@ -3,6 +3,10 @@
     padding: 0%;
     box-sizing: border-box;
 }
+*::selection{
+    background: #f1a59b;
+    color: #ffffff;
+}
 .contenedor_principal{
     width: 100%;
     overflow: hidden;
@@ -79,7 +83,7 @@ body{
     width: 25%;
 }
 .texto_principal_largo{
-    margin: 6rem;
+    margin: 3rem;
     text-align: center;
     animation-duration: 2s;
     animation-name: aparecer;
@@ -283,7 +287,7 @@ footer{
     margin: 20px;
     padding: 10px;
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 35% 65%;
     justify-items: end;
 }
 .religion{
@@ -293,7 +297,7 @@ footer{
     margin: 20px;
     padding: 10px;
     display: grid;
-    grid-template-columns: 75% 25%;
+    grid-template-columns: 50% 50%;
 }
 /* Estilo pagina actividades*/
 .contenedor_actividades{
@@ -308,6 +312,7 @@ footer{
     grid-area: pag_actividades;
     text-align: center;
     color: #666666;
+    width: 100%;
 }
 .pag_actividades h1{
     display: flex;
@@ -330,30 +335,28 @@ footer{
 .seccion_act{
     background-color: #f0eeeef3;
     display: grid;
+    overflow: hidden;
     grid-template-areas: "titulo_h2"
-    "safari"
-    "parques"
-    "palmera"
-    "mirador"
-    "mezquita"
-    "rio"
+    "safari parques"
+    "palmera mirador"
+    "mezquita rio"
     "ski";
 }
-#safari{
+.card-deck{
     background-color: white;
-    grid-area: safari;
     box-shadow: 0 0 0.675rem 0.075rem rgb(0 0 0 / 20%);
     margin: 2rem;
-    display:grid;
-    align-items: center;
-    justify-content: center;
+}
+#safari{
+    grid-area: safari;
     padding: 20px;
+    overflow: hidden;
 }
 .encabezado_safari{
     text-align: center;
     padding: 20px;
     display: grid;
-    gap: 1rem;
+    gap: 0.5rem;
     justify-items: center;
 }
 .info_safari{    
@@ -361,19 +364,14 @@ footer{
 }
 #parques{
     grid-area: parques;
-    background-color: white;
-    box-shadow: 0 0 0.675rem 0.075rem rgb(0 0 0 / 20%);
-    margin: 2rem;
-    display:grid;
-    align-items: center;
-    justify-content: center;
     padding: 20px;
+    overflow: hidden;
 }
 .encabezado_parques{
     text-align: center;
     padding: 20px;
     display: grid;
-    gap: 1rem;
+    gap: 0.5rem;
     justify-items: center;
 }
 .info_parques{    
@@ -381,19 +379,14 @@ footer{
 }
 #palmera{
     grid-area: palmera;
-    background-color: white;
-    box-shadow: 0 0 0.675rem 0.075rem rgb(0 0 0 / 20%);
-    margin: 2rem;
-    display:grid;
-    align-items: center;
-    justify-content: center;
     padding: 20px;
+    overflow: hidden;
 }
 .encabezado_palmera{
     text-align: center;
     padding: 20px;
     display: grid;
-    gap: 1rem;
+    gap: 0.5rem;
     justify-items: center;
 }
 .info_palmera{    
@@ -401,19 +394,14 @@ footer{
 }
 #mirador{
     grid-area: mirador;
-    background-color: white;
-    box-shadow: 0 0 0.675rem 0.075rem rgb(0 0 0 / 20%);
-    margin: 2rem;
-    display:grid;
-    align-items: center;
-    justify-content: center;
     padding: 20px;
+    overflow: hidden;
 }
 .encabezado_mirador{
     text-align: center;
     padding: 20px;
     display: grid;
-    gap: 1rem;
+    gap: 0.5rem;
     justify-items: center;
 }
 .info_mirador{    
@@ -421,19 +409,14 @@ footer{
 }
 #mezquita{
     grid-area: mezquita;
-    background-color: white;
-    box-shadow: 0 0 0.675rem 0.075rem rgb(0 0 0 / 20%);
-    margin: 2rem;
-    display:grid;
-    align-items: center;
-    justify-content: center;
     padding: 20px;
+    overflow: hidden;
 }
 .encabezado_mezquita{
     text-align: center;
     padding: 20px;
     display: grid;
-    gap: 1rem;
+    gap: 0.5rem;
     justify-items: center;
 }
 .info_mezquita{    
@@ -441,19 +424,14 @@ footer{
 }
 #rio{
     grid-area: rio;
-    background-color: white;
-    box-shadow: 0 0 0.675rem 0.075rem rgb(0 0 0 / 20%);
-    margin: 2rem;
-    display:grid;
-    align-items: center;
-    justify-content: center;
     padding: 20px;
+    overflow: hidden;
 }
 .encabezado_rio{
     text-align: center;
     padding: 20px;
     display: grid;
-    gap: 1rem;
+    gap: 0.5rem;
     justify-items: center;
 }
 .info_rio{    
@@ -461,19 +439,14 @@ footer{
 }
 #ski{
     grid-area: ski;
-    background-color: white;
-    box-shadow: 0 0 0.675rem 0.075rem rgb(0 0 0 / 20%);
-    margin: 2rem;
-    display:grid;
-    align-items: center;
-    justify-content: center;
     padding: 20px;
+    overflow: hidden;
 }
 .encabezado_ski{
     text-align: center;
     padding: 20px;
     display: grid;
-    gap: 1rem;
+    gap: 0.5rem;
     justify-items: center;
 }
 .info_ski{    
@@ -545,6 +518,29 @@ footer{
 }
 /* Estilo tablet*/
 @media only screen and (max-width: 768px){
+    /* Footer mobile*/
+    .suscripcion{
+        margin-top: 2rem;
+        padding: 0;
+    }
+    .texto_suscripcion{
+        font-size: small;
+    }
+    .dato_suscripcion{
+        flex-direction: column;
+    }
+    .email_suscripcion{
+        width: 100%;
+    }
+    .link_footer{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 1rem;
+        align-items: flex-start;
+    }
+    .enlaces_redes{
+        margin-top: 1rem;
+    }
 	/* Encabezado tablet*/
     .header{
         grid-template-columns: 4fr 1fr;
@@ -659,54 +655,9 @@ footer{
     .pag_actividades h1{
         margin-top: 1rem;
     }
-    #safari{
-        overflow: hidden;
-        margin: 0.4rem;
-    }
-    .encabezado_safari{
-        padding: 0.2rem;
-    }
-    #parques{
-        overflow: hidden;
-        margin: 0.4rem;
-    }
-    .encabezado_parques{
-        padding: 0.2rem;
-    }
-    #palmera{
-        overflow: hidden;
-        margin: 0.4rem;
-    }
-    .encabezado_palmera{
-        padding: 0.2rem;
-    }
-    #mirador{
-        overflow: hidden;
-        margin: 0.4rem;
-    }
-    .encabezado_mirador{
-        padding: 0.2rem;
-    }
-    #mezquita{
-        overflow: hidden;
-        margin: 0.4rem;
-    }
-    .encabezado_mezquita{
-        padding: 0.2rem;
-    }
-    #rio{
-        overflow: hidden;
-        margin: 0.4rem;
-    }
-    .encabezado_rio{
-        padding: 0.2rem;
-    }
-    #ski{
-        overflow: hidden;
-        margin: 0.4rem;
-    }
-    .encabezado_ski{
-        padding: 0.2rem;
+    .card-deck{
+        width: 90%;
+        margin: 0.5rem;
     }
     /*pagina quienes somos tablet*/ 
     .contenedor_quienes_somos{
@@ -726,29 +677,6 @@ footer{
 }
 /* Estilo mobile*/
 @media only screen and (max-width: 360px){
-    /* Footer mobile*/
-    .suscripcion{
-        margin-top: 2rem;
-        padding: 0;
-    }
-    .texto_suscripcion{
-        font-size: small;
-    }
-    .dato_suscripcion{
-        flex-direction: column;
-    }
-    .email_suscripcion{
-        width: 100%;
-    }
-    .link_footer{
-        width: 100%;
-        flex-direction: column;
-        margin-top: 1rem;
-        align-items: flex-start;
-    }
-    .enlaces_redes{
-        margin-top: 1rem;
-    }
 	/*Pagina principal mobile*/
     .imagenes_link{
         grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6";
