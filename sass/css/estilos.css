@@ -165,6 +165,8 @@ body {
   grid-gap: 1rem;
   grid-template-rows: 80px auto auto;
   grid-template-areas: "header" "pag_historia" "footer"; }
+  .contenedor_historia .header {
+    grid-area: header; }
   .contenedor_historia .pag_historia {
     grid-area: pag_historia;
     font-family: sans-serif;
@@ -192,3 +194,5 @@ body {
         font-style: normal;
         font-weight: 200;
         color: black; }
+  .contenedor_historia .footer {
+    grid-area: footer; }

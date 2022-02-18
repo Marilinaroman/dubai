@@ -206,6 +206,9 @@ body{
     grid-template-areas: "header"
     "pag_historia"
     "footer";
+    .header{
+        grid-area: header;
+    }
     .pag_historia{    
         grid-area: pag_historia;
         font-family: sans-serif;
@@ -240,5 +243,8 @@ body{
                 color: black;
             }
         }
+    }
+    .footer{
+        grid-area: footer;
     }
 }
