@@ -368,193 +368,196 @@ body{
                 font-size: 200;
                 margin:1rem;
             }
-            .card-deck{
-                background-color: white;
-                box-shadow: 0 0 0.675rem 0.075rem rgba($negro,$alpha);
-                margin: 2rem;
-                #safari{
-                    grid-area: safari;
-                    padding: 20px;
-                    overflow: hidden;
-                    .encabezado_safari{
-                        text-align: center;
+            .row{
+                .card-deck{
+                    background-color: white;
+                    box-shadow: 0 0 0.675rem 0.075rem rgba($negro,$alpha);
+                    margin: 2rem;
+                    #safari{
+                        grid-area: safari;
                         padding: 20px;
-                        display: grid;
-                        gap: 0.5rem;
-                        justify-items: center;
-                        .btn-primary,
-                            &:active,
-                            &:visited,
-                            &:focus {
-                                background-color: #f09082;
-                                border-color:#f09082;
-                                &:hover{
-                                    background-color: #f09182c4;
-                                    border-color:#f1867a;
+                        overflow: hidden;
+                        .encabezado_safari{
+                            text-align: center;
+                            padding: 20px;
+                            display: grid;
+                            gap: 0.5rem;
+                            justify-items: center;
+                            .btn-primary,
+                                &:active,
+                                &:visited,
+                                &:focus {
+                                    background-color: #f09082;
+                                    border-color:#f09082;
+                                    &:hover{
+                                        background-color: #f09182c4;
+                                        border-color:#f1867a;
+                                    }
                                 }
                         }
-                    }
-                    .info_safari{    
-                        text-align: justify;
-                    }
-                }
-                #parques{
-                    grid-area: parques;
-                    padding: 20px;
-                    overflow: hidden;
-                    .encabezado_parques{
-                        text-align: center;
-                        padding: 20px;
-                        display: grid;
-                        gap: 0.5rem;
-                        justify-items: center;
-                        .btn-primary,
-                            &:active,
-                            &:visited,
-                            &:focus {
-                                background-color: #f09082;
-                                border-color:#f09082;
-                                &:hover{
-                                    background-color: #f09182c4;
-                                    border-color:#f1867a;
-                                }
+                        .info_safari{    
+                            text-align: justify;
                         }
                     }
-                    .info_parques{    
-                        text-align: justify;
-                    }
-                }
-                #palmera{
-                    grid-area: palmera;
-                    padding: 20px;
-                    overflow: hidden;
-                    .encabezado_palmera{
-                        text-align: center;
+                    #parques{
+                        grid-area: parques;
                         padding: 20px;
-                        display: grid;
-                        gap: 0.5rem;
-                        justify-items: center;
-                        .btn-primary,
-                            &:active,
-                            &:visited,
-                            &:focus {
-                                background-color: #f09082;
-                                border-color:#f09082;
-                                &:hover{
-                                    background-color: #f09182c4;
-                                    border-color:#f1867a;
+                        overflow: hidden;
+                        .encabezado_parques{
+                            text-align: center;
+                            padding: 20px;
+                            display: grid;
+                            gap: 0.5rem;
+                            justify-items: center;
+                            .btn-primary,
+                                &:active,
+                                &:visited,
+                                &:focus {
+                                    background-color: #f09082;
+                                    border-color:#f09082;
+                                    &:hover{
+                                        background-color: #f09182c4;
+                                        border-color:#f1867a;
+                                    }
                                 }
+                        }
+                        .info_parques{    
+                            text-align: justify;
+                        }
+                    }
+                    #palmera{
+                        grid-area: palmera;
+                        padding: 20px;
+                        overflow: hidden;
+                        .encabezado_palmera{
+                            text-align: center;
+                            padding: 20px;
+                            display: grid;
+                            gap: 0.5rem;
+                            justify-items: center;
+                            .btn-primary,
+                                &:active,
+                                &:visited,
+                                &:focus {
+                                    background-color: #f09082;
+                                    border-color:#f09082;
+                                    &:hover{
+                                        background-color: #f09182c4;
+                                        border-color:#f1867a;
+                                    }
+                                }
+                        }
+                        .info_palmera{    
+                            text-align: justify;
+                        }
+                    }
+                    #mirador{
+                        grid-area: mirador;
+                        padding: 20px;
+                        overflow: hidden;
+                        .encabezado_mirador{
+                            text-align: center;
+                            padding: 20px;
+                            display: grid;
+                            gap: 0.5rem;
+                            justify-items: center;
+                            .btn-primary,
+                                &:active,
+                                &:visited,
+                                &:focus {
+                                    background-color: #f09082;
+                                    border-color:#f09082;
+                                    &:hover{
+                                        background-color: #f09182c4;
+                                        border-color:#f1867a;
+                                    }
                             }
-                    }
-                    .info_palmera{    
-                        text-align: justify;
-                    }
-                }
-                #mirador{
-                    grid-area: mirador;
-                    padding: 20px;
-                    overflow: hidden;
-                    .encabezado_mirador{
-                        text-align: center;
-                        padding: 20px;
-                        display: grid;
-                        gap: 0.5rem;
-                        justify-items: center;
-                        .btn-primary,
-                            &:active,
-                            &:visited,
-                            &:focus {
-                                background-color: #f09082;
-                                border-color:#f09082;
-                                &:hover{
-                                    background-color: #f09182c4;
-                                    border-color:#f1867a;
-                                }
+                        }
+                        .info_mirador{    
+                            text-align: justify;
                         }
                     }
-                    .info_mirador{    
-                        text-align: justify;
-                    }
-                }
-                #mezquita{
-                    grid-area: mezquita;
-                    padding: 20px;
-                    overflow: hidden;
-                    .encabezado_mezquita{
-                        text-align: center;
+                    #mezquita{
+                        grid-area: mezquita;
                         padding: 20px;
-                        display: grid;
-                        gap: 0.5rem;
-                        justify-items: center;
-                        .btn-primary,
-                            &:active,
-                            &:visited,
-                            &:focus {
-                                background-color: #f09082;
-                                border-color:#f09082;
-                                &:hover{
-                                    background-color: #f09182c4;
-                                    border-color:#f1867a;
-                                }
+                        overflow: hidden;
+                        .encabezado_mezquita{
+                            text-align: center;
+                            padding: 20px;
+                            display: grid;
+                            gap: 0.5rem;
+                            justify-items: center;
+                            .btn-primary,
+                                &:active,
+                                &:visited,
+                                &:focus {
+                                    background-color: #f09082;
+                                    border-color:#f09082;
+                                    &:hover{
+                                        background-color: #f09182c4;
+                                        border-color:#f1867a;
+                                    }
+                            }
+                        }
+                        .info_mezquita{    
+                            text-align: justify;
                         }
                     }
-                    .info_mezquita{    
-                        text-align: justify;
-                    }
-                }
-                #rio{
-                    grid-area: rio;
-                    padding: 20px;
-                    overflow: hidden;
-                    .encabezado_rio{
-                        text-align: center;
+                    #rio{
+                        grid-area: rio;
                         padding: 20px;
-                        display: grid;
-                        gap: 0.5rem;
-                        justify-items: center;
-                        .btn-primary,
-                            &:active,
-                            &:visited,
-                            &:focus {
-                                background-color: #f09082;
-                                border-color:#f09082;
-                                &:hover{
-                                    background-color: #f09182c4;
-                                    border-color:#f1867a;
-                                }
+                        overflow: hidden;
+                        .encabezado_rio{
+                            text-align: center;
+                            padding: 20px;
+                            display: grid;
+                            gap: 0.5rem;
+                            justify-items: center;
+                            .btn-primary,
+                                &:active,
+                                &:visited,
+                                &:focus {
+                                    background-color: #f09082;
+                                    border-color:#f09082;
+                                    &:hover{
+                                        background-color: #f09182c4;
+                                        border-color:#f1867a;
+                                    }
+                            }
+                        }
+                        .info_rio{    
+                            text-align: justify;
                         }
                     }
-                    .info_rio{    
-                        text-align: justify;
-                    }
-                }
-                #ski{
-                    grid-area: ski;
-                    padding: 20px;
-                    overflow: hidden;
-                    .encabezado_ski{
-                        text-align: center;
+                    #ski{
+                        grid-area: ski;
                         padding: 20px;
-                        display: grid;
-                        gap: 0.5rem;
-                        justify-items: center;
-                        .btn-primary,
-                            &:active,
-                            &:visited,
-                            &:focus {
-                                background-color: #f09082;
-                                border-color:#f09082;
-                                &:hover{
-                                    background-color: #f09182c4;
-                                    border-color:#f1867a;
-                                }
+                        overflow: hidden;
+                        .encabezado_ski{
+                            text-align: center;
+                            padding: 20px;
+                            display: grid;
+                            gap: 0.5rem;
+                            justify-items: center;
+                            .btn-primary,
+                                &:active,
+                                &:visited,
+                                &:focus {
+                                    background-color: #f09082;
+                                    border-color:#f09082;
+                                    &:hover{
+                                        background-color: #f09182c4;
+                                        border-color:#f1867a;
+                                    }
+                            }
                         }
-                    }
-                    .info_ski{    
-                        text-align: justify;
+                        .info_ski{    
+                            text-align: justify;
+                        }
                     }
                 }
             }
+            
         }
     }
     .footer{

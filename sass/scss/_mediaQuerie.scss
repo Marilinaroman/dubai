@@ -1,6 +1,6 @@
 //-----------Media Querie----------//
 @media only screen and (max-width: 768px){
-    .footer{
+    footer{
         .suscripcion{
             margin-top: 2rem;
             padding: 0;
@@ -25,16 +25,16 @@
             .texto_suscripcion{
                 font-size: small;
             }
-            .enlaces{
-                .link_footer{
+        }
+        .enlaces{
+            .link_footer{
                     width: 100%;
                     flex-direction: column;
                     margin-top: 1rem;
                     align-items: flex-start;
-                }
-                .enlaces_redes{
-                    margin-top: 1rem;
-                }
+            }
+            .enlaces_redes{
+                margin-top: 1rem;
             }
         }
     }
@@ -161,6 +161,20 @@
             }
         }
     }
+    //-----Pagina Actividades-----//
+    .contenedor_actividades{
+        .pag_actividades h1{
+            margin-top: 1rem;
+        }
+        .seccion_act{
+            .card-deck{
+                width: 90%;
+                margin: 0.5rem;
+            }
+
+        }
+
+    }
     //-----Pagina quienes somos------//
     .contenedor_quienes_somos{
         grid-template-columns: 100%;
@@ -205,10 +219,9 @@
             .cultura_largo{
                 .idioma{
                     .expresiones{
-                        width: 200px;
+                        width: 100%;
                         .video_exp{
-                            width: 18rem;
-                            height: 15rem;
+                            width: 90%;
                         }
                     }
                 }
@@ -220,6 +233,12 @@
                 }
             }
         }    
+    }
+    //------Pagina actividades-----//
+    .contenedor_actividades{
+        .pag_actividades h1{
+            font-size: 3rem;
+        }
     }
     //------Pagina quienes somos-----//
     .contenedor_quienes_somos{

@@ -289,135 +289,135 @@ body {
         color: black;
         font-size: 200;
         margin: 1rem; }
-      .contenedor_actividades .pag_actividades .seccion_act .card-deck {
+      .contenedor_actividades .pag_actividades .seccion_act .row .card-deck {
         background-color: white;
         box-shadow: 0 0 0.675rem 0.075rem rgba(0, 0, 0, 0.2);
         margin: 2rem; }
-        .contenedor_actividades .pag_actividades .seccion_act .card-deck #safari {
+        .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari {
           grid-area: safari;
           padding: 20px;
           overflow: hidden; }
-          .contenedor_actividades .pag_actividades .seccion_act .card-deck #safari .encabezado_safari {
+          .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari .encabezado_safari {
             text-align: center;
             padding: 20px;
             display: grid;
             gap: 0.5rem;
             justify-items: center; }
-            .contenedor_actividades .pag_actividades .seccion_act .card-deck #safari .encabezado_safari .btn-primary, .contenedor_actividades .pag_actividades .seccion_act .card-deck #safari .encabezado_safari:active, .contenedor_actividades .pag_actividades .seccion_act .card-deck #safari .encabezado_safari:visited, .contenedor_actividades .pag_actividades .seccion_act .card-deck #safari .encabezado_safari:focus {
+            .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari .encabezado_safari .btn-primary, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari .encabezado_safari:active, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari .encabezado_safari:visited, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari .encabezado_safari:focus {
               background-color: #f09082;
               border-color: #f09082; }
-              .contenedor_actividades .pag_actividades .seccion_act .card-deck #safari .encabezado_safari .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #safari .encabezado_safari:active:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #safari .encabezado_safari:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #safari .encabezado_safari:focus:hover {
+              .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari .encabezado_safari .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari .encabezado_safari:active:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari .encabezado_safari:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari .encabezado_safari:focus:hover {
                 background-color: #f09182c4;
                 border-color: #f1867a; }
-          .contenedor_actividades .pag_actividades .seccion_act .card-deck #safari .info_safari {
+          .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari .info_safari {
             text-align: justify; }
-        .contenedor_actividades .pag_actividades .seccion_act .card-deck #parques {
+        .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques {
           grid-area: parques;
           padding: 20px;
           overflow: hidden; }
-          .contenedor_actividades .pag_actividades .seccion_act .card-deck #parques .encabezado_parques {
+          .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques .encabezado_parques {
             text-align: center;
             padding: 20px;
             display: grid;
             gap: 0.5rem;
             justify-items: center; }
-            .contenedor_actividades .pag_actividades .seccion_act .card-deck #parques .encabezado_parques .btn-primary, .contenedor_actividades .pag_actividades .seccion_act .card-deck #parques .encabezado_parques:active, .contenedor_actividades .pag_actividades .seccion_act .card-deck #parques .encabezado_parques:visited, .contenedor_actividades .pag_actividades .seccion_act .card-deck #parques .encabezado_parques:focus {
+            .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques .encabezado_parques .btn-primary, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques .encabezado_parques:active, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques .encabezado_parques:visited, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques .encabezado_parques:focus {
               background-color: #f09082;
               border-color: #f09082; }
-              .contenedor_actividades .pag_actividades .seccion_act .card-deck #parques .encabezado_parques .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #parques .encabezado_parques:active:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #parques .encabezado_parques:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #parques .encabezado_parques:focus:hover {
+              .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques .encabezado_parques .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques .encabezado_parques:active:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques .encabezado_parques:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques .encabezado_parques:focus:hover {
                 background-color: #f09182c4;
                 border-color: #f1867a; }
-          .contenedor_actividades .pag_actividades .seccion_act .card-deck #parques .info_parques {
+          .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques .info_parques {
             text-align: justify; }
-        .contenedor_actividades .pag_actividades .seccion_act .card-deck #palmera {
+        .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera {
           grid-area: palmera;
           padding: 20px;
           overflow: hidden; }
-          .contenedor_actividades .pag_actividades .seccion_act .card-deck #palmera .encabezado_palmera {
+          .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera .encabezado_palmera {
             text-align: center;
             padding: 20px;
             display: grid;
             gap: 0.5rem;
             justify-items: center; }
-            .contenedor_actividades .pag_actividades .seccion_act .card-deck #palmera .encabezado_palmera .btn-primary, .contenedor_actividades .pag_actividades .seccion_act .card-deck #palmera .encabezado_palmera:active, .contenedor_actividades .pag_actividades .seccion_act .card-deck #palmera .encabezado_palmera:visited, .contenedor_actividades .pag_actividades .seccion_act .card-deck #palmera .encabezado_palmera:focus {
+            .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera .encabezado_palmera .btn-primary, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera .encabezado_palmera:active, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera .encabezado_palmera:visited, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera .encabezado_palmera:focus {
               background-color: #f09082;
               border-color: #f09082; }
-              .contenedor_actividades .pag_actividades .seccion_act .card-deck #palmera .encabezado_palmera .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #palmera .encabezado_palmera:active:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #palmera .encabezado_palmera:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #palmera .encabezado_palmera:focus:hover {
+              .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera .encabezado_palmera .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera .encabezado_palmera:active:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera .encabezado_palmera:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera .encabezado_palmera:focus:hover {
                 background-color: #f09182c4;
                 border-color: #f1867a; }
-          .contenedor_actividades .pag_actividades .seccion_act .card-deck #palmera .info_palmera {
+          .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera .info_palmera {
             text-align: justify; }
-        .contenedor_actividades .pag_actividades .seccion_act .card-deck #mirador {
+        .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador {
           grid-area: mirador;
           padding: 20px;
           overflow: hidden; }
-          .contenedor_actividades .pag_actividades .seccion_act .card-deck #mirador .encabezado_mirador {
+          .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador .encabezado_mirador {
             text-align: center;
             padding: 20px;
             display: grid;
             gap: 0.5rem;
             justify-items: center; }
-            .contenedor_actividades .pag_actividades .seccion_act .card-deck #mirador .encabezado_mirador .btn-primary, .contenedor_actividades .pag_actividades .seccion_act .card-deck #mirador .encabezado_mirador:active, .contenedor_actividades .pag_actividades .seccion_act .card-deck #mirador .encabezado_mirador:visited, .contenedor_actividades .pag_actividades .seccion_act .card-deck #mirador .encabezado_mirador:focus {
+            .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador .encabezado_mirador .btn-primary, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador .encabezado_mirador:active, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador .encabezado_mirador:visited, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador .encabezado_mirador:focus {
               background-color: #f09082;
               border-color: #f09082; }
-              .contenedor_actividades .pag_actividades .seccion_act .card-deck #mirador .encabezado_mirador .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #mirador .encabezado_mirador:active:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #mirador .encabezado_mirador:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #mirador .encabezado_mirador:focus:hover {
+              .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador .encabezado_mirador .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador .encabezado_mirador:active:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador .encabezado_mirador:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador .encabezado_mirador:focus:hover {
                 background-color: #f09182c4;
                 border-color: #f1867a; }
-          .contenedor_actividades .pag_actividades .seccion_act .card-deck #mirador .info_mirador {
+          .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador .info_mirador {
             text-align: justify; }
-        .contenedor_actividades .pag_actividades .seccion_act .card-deck #mezquita {
+        .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita {
           grid-area: mezquita;
           padding: 20px;
           overflow: hidden; }
-          .contenedor_actividades .pag_actividades .seccion_act .card-deck #mezquita .encabezado_mezquita {
+          .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita .encabezado_mezquita {
             text-align: center;
             padding: 20px;
             display: grid;
             gap: 0.5rem;
             justify-items: center; }
-            .contenedor_actividades .pag_actividades .seccion_act .card-deck #mezquita .encabezado_mezquita .btn-primary, .contenedor_actividades .pag_actividades .seccion_act .card-deck #mezquita .encabezado_mezquita:active, .contenedor_actividades .pag_actividades .seccion_act .card-deck #mezquita .encabezado_mezquita:visited, .contenedor_actividades .pag_actividades .seccion_act .card-deck #mezquita .encabezado_mezquita:focus {
+            .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita .encabezado_mezquita .btn-primary, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita .encabezado_mezquita:active, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita .encabezado_mezquita:visited, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita .encabezado_mezquita:focus {
               background-color: #f09082;
               border-color: #f09082; }
-              .contenedor_actividades .pag_actividades .seccion_act .card-deck #mezquita .encabezado_mezquita .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #mezquita .encabezado_mezquita:active:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #mezquita .encabezado_mezquita:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #mezquita .encabezado_mezquita:focus:hover {
+              .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita .encabezado_mezquita .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita .encabezado_mezquita:active:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita .encabezado_mezquita:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita .encabezado_mezquita:focus:hover {
                 background-color: #f09182c4;
                 border-color: #f1867a; }
-          .contenedor_actividades .pag_actividades .seccion_act .card-deck #mezquita .info_mezquita {
+          .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita .info_mezquita {
             text-align: justify; }
-        .contenedor_actividades .pag_actividades .seccion_act .card-deck #rio {
+        .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio {
           grid-area: rio;
           padding: 20px;
           overflow: hidden; }
-          .contenedor_actividades .pag_actividades .seccion_act .card-deck #rio .encabezado_rio {
+          .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio .encabezado_rio {
             text-align: center;
             padding: 20px;
             display: grid;
             gap: 0.5rem;
             justify-items: center; }
-            .contenedor_actividades .pag_actividades .seccion_act .card-deck #rio .encabezado_rio .btn-primary, .contenedor_actividades .pag_actividades .seccion_act .card-deck #rio .encabezado_rio:active, .contenedor_actividades .pag_actividades .seccion_act .card-deck #rio .encabezado_rio:visited, .contenedor_actividades .pag_actividades .seccion_act .card-deck #rio .encabezado_rio:focus {
+            .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio .encabezado_rio .btn-primary, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio .encabezado_rio:active, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio .encabezado_rio:visited, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio .encabezado_rio:focus {
               background-color: #f09082;
               border-color: #f09082; }
-              .contenedor_actividades .pag_actividades .seccion_act .card-deck #rio .encabezado_rio .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #rio .encabezado_rio:active:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #rio .encabezado_rio:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #rio .encabezado_rio:focus:hover {
+              .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio .encabezado_rio .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio .encabezado_rio:active:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio .encabezado_rio:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio .encabezado_rio:focus:hover {
                 background-color: #f09182c4;
                 border-color: #f1867a; }
-          .contenedor_actividades .pag_actividades .seccion_act .card-deck #rio .info_rio {
+          .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio .info_rio {
             text-align: justify; }
-        .contenedor_actividades .pag_actividades .seccion_act .card-deck #ski {
+        .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski {
           grid-area: ski;
           padding: 20px;
           overflow: hidden; }
-          .contenedor_actividades .pag_actividades .seccion_act .card-deck #ski .encabezado_ski {
+          .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski .encabezado_ski {
             text-align: center;
             padding: 20px;
             display: grid;
             gap: 0.5rem;
             justify-items: center; }
-            .contenedor_actividades .pag_actividades .seccion_act .card-deck #ski .encabezado_ski .btn-primary, .contenedor_actividades .pag_actividades .seccion_act .card-deck #ski .encabezado_ski:active, .contenedor_actividades .pag_actividades .seccion_act .card-deck #ski .encabezado_ski:visited, .contenedor_actividades .pag_actividades .seccion_act .card-deck #ski .encabezado_ski:focus {
+            .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski .encabezado_ski .btn-primary, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski .encabezado_ski:active, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski .encabezado_ski:visited, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski .encabezado_ski:focus {
               background-color: #f09082;
               border-color: #f09082; }
-              .contenedor_actividades .pag_actividades .seccion_act .card-deck #ski .encabezado_ski .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #ski .encabezado_ski:active:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #ski .encabezado_ski:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .card-deck #ski .encabezado_ski:focus:hover {
+              .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski .encabezado_ski .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski .encabezado_ski:active:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski .encabezado_ski:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski .encabezado_ski:focus:hover {
                 background-color: #f09182c4;
                 border-color: #f1867a; }
-          .contenedor_actividades .pag_actividades .seccion_act .card-deck #ski .info_ski {
+          .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski .info_ski {
             text-align: justify; }
   .contenedor_actividades .footer {
     grid-area: footer; }
@@ -472,29 +472,29 @@ body {
     grid-area: footer; }
 
 @media only screen and (max-width: 768px) {
-  .footer .suscripcion {
+  footer .suscripcion {
     margin-top: 2rem;
     padding: 0; }
-    .footer .suscripcion .dato_suscripcion {
+    footer .suscripcion .dato_suscripcion {
       flex-direction: column;
       margin-bottom: 1rem; }
-      .footer .suscripcion .dato_suscripcion .email_suscripcion {
+      footer .suscripcion .dato_suscripcion .email_suscripcion {
         width: 100%; }
-      .footer .suscripcion .dato_suscripcion .btn-primary, .footer .suscripcion .dato_suscripcion:active, .footer .suscripcion .dato_suscripcion:visited, .footer .suscripcion .dato_suscripcion:focus {
+      footer .suscripcion .dato_suscripcion .btn-primary, footer .suscripcion .dato_suscripcion:active, footer .suscripcion .dato_suscripcion:visited, footer .suscripcion .dato_suscripcion:focus {
         background-color: #f09082;
         border-color: #f09082; }
-        .footer .suscripcion .dato_suscripcion .btn-primary:hover, .footer .suscripcion .dato_suscripcion:active:hover, .footer .suscripcion .dato_suscripcion:visited:hover, .footer .suscripcion .dato_suscripcion:focus:hover {
+        footer .suscripcion .dato_suscripcion .btn-primary:hover, footer .suscripcion .dato_suscripcion:active:hover, footer .suscripcion .dato_suscripcion:visited:hover, footer .suscripcion .dato_suscripcion:focus:hover {
           background-color: #f09182c4;
           border-color: #f1867a; }
-    .footer .suscripcion .texto_suscripcion {
+    footer .suscripcion .texto_suscripcion {
       font-size: small; }
-    .footer .suscripcion .enlaces .link_footer {
-      width: 100%;
-      flex-direction: column;
-      margin-top: 1rem;
-      align-items: flex-start; }
-    .footer .suscripcion .enlaces .enlaces_redes {
-      margin-top: 1rem; }
+  footer .enlaces .link_footer {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: flex-start; }
+  footer .enlaces .enlaces_redes {
+    margin-top: 1rem; }
   .header {
     grid-template-columns: 4fr 1fr; }
     .header nav .nav-toggle {
@@ -580,6 +580,11 @@ body {
       grid-template-columns: 100%;
       grid-template-rows: auto;
       margin: 0.5rem; }
+  .contenedor_actividades .pag_actividades h1 {
+    margin-top: 1rem; }
+  .contenedor_actividades .seccion_act .card-deck {
+    width: 90%;
+    margin: 0.5rem; }
   .contenedor_quienes_somos {
     grid-template-columns: 100%;
     grid-template-rows: auto; }
@@ -603,12 +608,13 @@ body {
     height: 3rem;
     font-size: 2rem; }
   .contenedor_cultura .pag_cultura .cultura_largo .idioma .expresiones {
-    width: 200px; }
+    width: 100%; }
     .contenedor_cultura .pag_cultura .cultura_largo .idioma .expresiones .video_exp {
-      width: 18rem;
-      height: 15rem; }
+      width: 90%; }
   .contenedor_cultura .pag_cultura .cultura_largo .religion .img_religion {
     width: 18rem;
     height: 13rem; }
+  .contenedor_actividades .pag_actividades h1 {
+    font-size: 3rem; }
   .contenedor_quienes_somos .pag_quienes_somos #quienes_somos p {
     width: 18rem; } }
