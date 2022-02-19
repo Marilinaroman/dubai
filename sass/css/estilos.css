@@ -18,32 +18,32 @@
   top: 0%;
   left: 0%;
   grid-area: header; }
-  .header .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    list-style: none;
-    position: relative;
-    margin-bottom: 10px; }
-  .header .navbar-item-link {
-    text-decoration: none;
-    color: #ff3e20;
-    font-size: medium;
-    text-transform: uppercase;
-    padding: 8px 12px;
-    border-radius: 3px; }
-    .header .navbar-item-link:hover {
-      background-color: #f09082;
-      color: white; }
-  .header .nav-toggle {
+  .header nav .nav-toggle {
     color: white;
     background: none;
     border: none;
     font-size: 30px;
     padding-left: 5rem;
     line-height: 60px;
-    cursor: pointer;
-    display: none; }
+    display: none;
+    cursor: pointer; }
+  .header nav .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    position: relative;
+    margin-bottom: 10px; }
+    .header nav .navbar .navbar-item-link {
+      text-decoration: none;
+      color: #ff3e20;
+      font-size: medium;
+      text-transform: uppercase;
+      padding: 8px 12px;
+      border-radius: 3px; }
+      .header nav .navbar .navbar-item-link:hover {
+        background-color: #f09082;
+        color: white; }
 
 footer {
   height: 25rem;
@@ -175,7 +175,7 @@ body {
     background-color: #f0eeeef3; }
     .contenedor_historia .pag_historia .historia_inicio {
       display: flex;
-      background-image: url("../mi_proyecto/Imagenes/historia.jpg");
+      background-image: url("../../Imagenes/historia.jpg");
       background-position: top center;
       background-repeat: no-repeat;
       width: 100%;
@@ -196,3 +196,89 @@ body {
         color: black; }
   .contenedor_historia .footer {
     grid-area: footer; }
+
+@media only screen and (max-width: 768px) {
+  .footer .suscripcion {
+    margin-top: 2rem;
+    padding: 0; }
+    .footer .suscripcion .dato_suscripcion {
+      flex-direction: column;
+      margin-bottom: 1rem; }
+      .footer .suscripcion .dato_suscripcion .email_suscripcion {
+        width: 100%; }
+      .footer .suscripcion .dato_suscripcion .btn-primary, .footer .suscripcion .dato_suscripcion:active, .footer .suscripcion .dato_suscripcion:visited, .footer .suscripcion .dato_suscripcion:focus {
+        background-color: #f09082;
+        border-color: #f09082; }
+        .footer .suscripcion .dato_suscripcion .btn-primary:hover, .footer .suscripcion .dato_suscripcion:active:hover, .footer .suscripcion .dato_suscripcion:visited:hover, .footer .suscripcion .dato_suscripcion:focus:hover {
+          background-color: #f09182c4;
+          border-color: #f1867a; }
+    .footer .suscripcion .texto_suscripcion {
+      font-size: small; }
+    .footer .suscripcion .enlaces .link_footer {
+      width: 100%;
+      flex-direction: column;
+      margin-top: 1rem;
+      align-items: flex-start; }
+    .footer .suscripcion .enlaces .enlaces_redes {
+      margin-top: 1rem; }
+  .header {
+    grid-template-columns: 4fr 1fr; }
+    .header nav .nav-toggle {
+      display: block; }
+      .header nav .nav-toggle:focus:not(:focus-visible) {
+        outline: none; }
+    .header nav .navbar {
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      left: 0;
+      padding: 20px 0;
+      top: 60px;
+      width: 100%;
+      height: calc(100% -80px);
+      overflow-y: auto;
+      background-color: #ebb6ae;
+      left: 100%;
+      transition: left 0.3s; }
+    .header nav .navbar_visible {
+      left: 0; }
+      .header nav .navbar_visible .navbar-item-link {
+        color: white;
+        line-height: 4rem; }
+        .header nav .navbar_visible .navbar-item-link:hover {
+          color: #eeb9b0; }
+  .contenedor_principal {
+    grid-template-columns: 100%;
+    grid-template-rows: auto; }
+    .contenedor_principal .main .articulo_inicio {
+      display: block; }
+      .contenedor_principal .main .articulo_inicio .h1_inicio {
+        width: 100%;
+        margin-top: 2em;
+        margin-bottom: 1rem; }
+    .contenedor_principal .main .texto_principal_largo {
+      margin: 1rem; }
+    .contenedor_principal .main .mapa_dubai {
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      height: 0; }
+      .contenedor_principal .main .mapa_dubai iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute; }
+    .contenedor_principal .main .imagenes_link {
+      grid-template-areas: "img1 img2" "img3 img4" "img5 img6";
+      justify-items: center; }
+  .contenedor_historia {
+    grid-template-columns: 100%;
+    grid-template-rows: auto; }
+    .contenedor_historia .pag_historia .historia {
+      margin: 0.5rem; } }
+
+@media only screen and (max-width: 360px) {
+  .contenedor_principal .main .imagenes_link {
+    grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6";
+    justify-items: center; } }
