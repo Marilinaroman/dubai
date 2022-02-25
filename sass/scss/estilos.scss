@@ -136,6 +136,9 @@ footer{
                     text-align: center;
                     width: 25%;
                 }
+                #carouselExampleControls{
+                    width: 100%;
+                }
             }
             .texto_principal_largo{
                 margin: 3rem;
@@ -552,6 +555,7 @@ body{
         }
         fieldset{
             div{
+                padding: 0.5rem;
                 .btn-primary,
                     &:visited,
                     &:focus {

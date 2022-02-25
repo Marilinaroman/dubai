@@ -37,7 +37,7 @@
             <div class="d-flex justify-content-center">
                 <form class="row g-2" action="validar.php" method="get">
                     <fieldset>
-                        <legend text-center>Ingrese sus datos personales</legend>
+                        <legend>Ingrese sus datos personales</legend>
                         <div class="form-group">
                             <!--Nombre y Apellido-->                                          
                             <label for="nombre"> Nombre y Apellido</label>
@@ -55,13 +55,12 @@
                         </div>
                     </fieldset>
                     <fieldset>
-                        <legend text-center>Tour</legend>
+                        <legend>Tour</legend>
                         <div class="form-group">
                             <!--Fecha-->                                      
                             <label for="fecha">Fecha</label>
                             <input class="form-control" type="date" name="fecha" id="fecha_tour">
                         </div>
-                        <br>
                         <div class="form-group input-group mb-3">
                             <!--Tour-->                                     
                             <label class="input-group-text" for="tour" >Tour</label>
@@ -104,7 +103,7 @@
                         </div>
                     </fieldset>
                     <fieldset>
-                        <legend text-center>Ingrese su consulta</legend>
+                        <legend >Ingrese su consulta</legend>
                         <div class="form-group">
                             <!--Asunto-->
                             <label for="asunto">Asunto</label>
@@ -112,18 +111,16 @@
                         </div>
                         <div class="form-group">
                             <!--Consulta-->
-                            <label for="consulta">Detalle de la consulta</label><br>
+                            <label for="consulta">Detalle de la consulta</label>
                             <textarea class="form-control" name="consulta" id="consulta" cols="30" rows="10" minlength="10" maxlength="100" required></textarea>
                         </div>
                     </fieldset>
                     <fieldset>
-                        <br>
                         <div class="text-center">
                             <a href="actividades.html"><input class="btn btn-primary btn-sm" type="button" value="Cancelar" ></a>
                             <input class="btn btn-primary btn-sm" type="reset" value="Limpiar" id="reset">
                             <input class="btn btn-primary btn-sm" type="submit" value="Enviar" id="enviar">
                         </div>
-                        <br>
                     </fieldset>
                 </form>
             </div>

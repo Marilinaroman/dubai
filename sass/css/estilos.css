@@ -106,6 +106,8 @@ footer {
         color: #fff2e4;
         text-align: center;
         width: 25%; }
+      .contenedor_principal .main .articulo_inicio #carouselExampleControls {
+        width: 100%; }
     .contenedor_principal .main .texto_principal_largo {
       margin: 3rem;
       text-align: center;
@@ -436,12 +438,14 @@ body {
     .contenedor_contacto .pag_contacto h1 {
       color: black;
       text-align: center; }
-    .contenedor_contacto .pag_contacto fieldset div .btn-primary, .contenedor_contacto .pag_contacto fieldset div:visited, .contenedor_contacto .pag_contacto fieldset div:focus {
-      background-color: #f09082;
-      border-color: #f09082; }
-      .contenedor_contacto .pag_contacto fieldset div .btn-primary:hover, .contenedor_contacto .pag_contacto fieldset div:visited:hover, .contenedor_contacto .pag_contacto fieldset div:focus:hover {
-        background-color: #f09182c4;
-        border-color: #f1867a; }
+    .contenedor_contacto .pag_contacto fieldset div {
+      padding: 0.5rem; }
+      .contenedor_contacto .pag_contacto fieldset div .btn-primary, .contenedor_contacto .pag_contacto fieldset div:visited, .contenedor_contacto .pag_contacto fieldset div:focus {
+        background-color: #f09082;
+        border-color: #f09082; }
+        .contenedor_contacto .pag_contacto fieldset div .btn-primary:hover, .contenedor_contacto .pag_contacto fieldset div:visited:hover, .contenedor_contacto .pag_contacto fieldset div:focus:hover {
+          background-color: #f09182c4;
+          border-color: #f1867a; }
   .contenedor_contacto .footer {
     grid-area: footer; }
 
