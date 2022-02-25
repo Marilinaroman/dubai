@@ -1,4 +1,11 @@
 $negro: rgb(0,0,0);
-// Declare an alpha
 $alpha: .20;
-$fondo: #f0eeeef3;
+
+$colores:(
+    blanco: white,
+    fondoN: #f1a59b,
+    fondoFooter:#fff2e4,
+    fondo:#f0eeeef3,
+    letrasNav:#ff3e20,
+    gris: rgb(165, 164, 164)
+)

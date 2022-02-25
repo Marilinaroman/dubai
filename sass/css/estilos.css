@@ -5,7 +5,7 @@
 
 *::selection {
   background: #f1a59b;
-  color: #ffffff; }
+  color: white; }
 
 .header {
   position: fixed;
@@ -42,7 +42,7 @@
       padding: 8px 12px;
       border-radius: 3px; }
       .header nav .navbar .navbar-item-link:hover {
-        background-color: #f09082;
+        background-color: #f1a59b;
         color: white; }
 
 footer {
@@ -467,7 +467,61 @@ body {
       .contenedor_quienes_somos .pag_quienes_somos #quienes_somos h1 {
         font-weight: 100; }
     .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes h2 {
-      font-weight: 100; }
+      font-weight: 20; }
+    .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .categorias {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin-bottom: 60px; }
+      .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .categorias .categoria {
+        cursor: pointer;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        background: #fff;
+        font-weight: 700;
+        color: var(--gris-claro);
+        border: 2px solid transparent;
+        transition: .3s ease all; }
+        .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .categorias .categoria:hover {
+          color: #000; }
+        .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .categorias .categoria img {
+          width: 64px;
+          margin-bottom: 10px; }
+      .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .categorias .activa {
+        border-color: #f1867a; }
+    .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .preguntas .contenedor_preguntas {
+      display: none;
+      grid-template-columns: 1fr;
+      gap: 40px; }
+      .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .preguntas .contenedor_preguntas .contenedor_pregunta {
+        background: #fff;
+        padding: 40px;
+        border: 2px solid transparent;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: .3s ease all;
+        cursor: pointer; }
+        .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .preguntas .contenedor_preguntas .contenedor_pregunta:hover {
+          border: 5rem; }
+        .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .preguntas .contenedor_preguntas .contenedor_pregunta .pregunta {
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+        .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .preguntas .contenedor_preguntas .contenedor_pregunta .respuesta {
+          color: #808080;
+          line-height: 30px;
+          max-height: 0;
+          opacity: 0;
+          transition: .3s ease all; }
+    .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .preguntas .activo {
+      display: grid; }
+      .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .preguntas .activo .activa .respuesta {
+        opacity: 1;
+        margin-top: 20px; }
   .contenedor_quienes_somos .footer {
     grid-area: footer; }
 
