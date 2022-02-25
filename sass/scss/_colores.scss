@@ -1,7 +1,4 @@
-$negro: rgb(0,0,0);
-$alpha: .20;
-
-$colores:(
+$colores: (
     blanco: white,
     fondoImgFirst:#ebb6ae,
     fondoN: #f1a59b,
@@ -12,4 +9,6 @@ $colores:(
     estiloBoton: #f09082,
     estiloBotonHover:#f09182c4,
     bordeBotonHover:#f1867a  
-)
+);
+$negro: rgb(0,0,0);
+$alpha: .20;

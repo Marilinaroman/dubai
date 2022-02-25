@@ -80,7 +80,6 @@ footer{
                 width: 50%;
             }
             .btn-primary,
-                    &:active,
                     &:visited,
                     &:focus {
                         background-color: map-get($colores,estiloBoton);
@@ -381,16 +380,16 @@ body{
                         .encabezado_safari{
                             @include estilo_card;
                             .btn-primary,
-                                &:active,
                                 &:visited,
                                 &:focus {
-                                    background-color: #f09082;
-                                    border-color:#f09082;
+                                    background-color: map-get($colores,estiloBoton);
+                                    border-color:map-get($colores,estiloBoton);
                                     &:hover{
-                                        background-color: #f09182c4;
-                                        border-color:#f1867a;
+                                        background-color: map-get($colores,estiloBotonHover);
+                                        border-color:map-get($colores,bordeBotonHover);
                                     }
                                 }
+                                
                         }
                         .info_safari{    
                             text-align: justify;
@@ -403,14 +402,13 @@ body{
                         .encabezado_parques{
                             @include estilo_card;
                             .btn-primary,
-                                &:active,
                                 &:visited,
                                 &:focus {
-                                    background-color: #f09082;
-                                    border-color:#f09082;
+                                    background-color: map-get($colores,estiloBoton);
+                                    border-color:map-get($colores,estiloBoton);
                                     &:hover{
-                                        background-color: #f09182c4;
-                                        border-color:#f1867a;
+                                        background-color: map-get($colores,estiloBotonHover);
+                                        border-color:map-get($colores,bordeBotonHover);
                                     }
                                 }
                         }
@@ -425,14 +423,13 @@ body{
                         .encabezado_palmera{
                             @include estilo_card;
                             .btn-primary,
-                                &:active,
                                 &:visited,
                                 &:focus {
-                                    background-color: #f09082;
-                                    border-color:#f09082;
+                                    background-color: map-get($colores,estiloBoton);
+                                    border-color:map-get($colores,estiloBoton);
                                     &:hover{
-                                        background-color: #f09182c4;
-                                        border-color:#f1867a;
+                                        background-color: map-get($colores,estiloBotonHover);
+                                        border-color:map-get($colores,bordeBotonHover);
                                     }
                                 }
                         }
@@ -447,14 +444,13 @@ body{
                         .encabezado_mirador{
                             @include estilo_card;
                             .btn-primary,
-                                &:active,
                                 &:visited,
                                 &:focus {
-                                    background-color: #f09082;
-                                    border-color:#f09082;
+                                    background-color: map-get($colores,estiloBoton);
+                                    border-color:map-get($colores,estiloBoton);
                                     &:hover{
-                                        background-color: #f09182c4;
-                                        border-color:#f1867a;
+                                        background-color: map-get($colores,estiloBotonHover);
+                                        border-color:map-get($colores,bordeBotonHover);
                                     }
                             }
                         }
@@ -469,14 +465,13 @@ body{
                         .encabezado_mezquita{
                             @include estilo_card;
                             .btn-primary,
-                                &:active,
                                 &:visited,
                                 &:focus {
-                                    background-color: #f09082;
-                                    border-color:#f09082;
+                                    background-color: map-get($colores,estiloBoton);
+                                    border-color:map-get($colores,estiloBoton);
                                     &:hover{
-                                        background-color: #f09182c4;
-                                        border-color:#f1867a;
+                                        background-color: map-get($colores,estiloBotonHover);
+                                        border-color:map-get($colores,bordeBotonHover);
                                     }
                             }
                         }
@@ -491,14 +486,13 @@ body{
                         .encabezado_rio{
                             @include estilo_card;
                             .btn-primary,
-                                &:active,
                                 &:visited,
                                 &:focus {
-                                    background-color: #f09082;
-                                    border-color:#f09082;
+                                    background-color: map-get($colores,estiloBoton);
+                                    border-color:map-get($colores,estiloBoton);
                                     &:hover{
-                                        background-color: #f09182c4;
-                                        border-color:#f1867a;
+                                        background-color: map-get($colores,estiloBotonHover);
+                                        border-color:map-get($colores,bordeBotonHover);
                                     }
                             }
                         }
@@ -513,14 +507,13 @@ body{
                         .encabezado_ski{
                             @include estilo_card;
                             .btn-primary,
-                                &:active,
                                 &:visited,
                                 &:focus {
-                                    background-color: #f09082;
-                                    border-color:#f09082;
+                                    background-color: map-get($colores,estiloBoton);
+                                    border-color:map-get($colores,estiloBoton);
                                     &:hover{
-                                        background-color: #f09182c4;
-                                        border-color:#f1867a;
+                                        background-color: map-get($colores,estiloBotonHover);
+                                        border-color:map-get($colores,bordeBotonHover);
                                     }
                             }
                         }
@@ -551,7 +544,7 @@ body{
     }
     .pag_contacto{
         grid-area: pag_contacto;
-        background-color: #map-get($colores,fondo);
+        background-color: map-get($colores,fondo);
 
         h1{
             color: $negro;
@@ -560,7 +553,6 @@ body{
         fieldset{
             div{
                 .btn-primary,
-                    &:active,
                     &:visited,
                     &:focus {
                         background-color: #f09082;
