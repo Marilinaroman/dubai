@@ -523,6 +523,7 @@ body {
     .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .preguntas .activo {
       display: grid; }
       .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .preguntas .activo .activa .respuesta {
+        display: grid;
         opacity: 1;
         margin-top: 20px; }
   .contenedor_quienes_somos .footer {
