@@ -478,15 +478,14 @@ body {
         text-align: center;
         padding: 20px;
         border-radius: 10px;
-        background: #fff;
+        background: white;
         font-weight: 700;
-        color: var(--gris-claro);
         border: 2px solid transparent;
         transition: .3s ease all; }
         .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .categorias .categoria:hover {
           color: #000; }
         .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .categorias .categoria img {
-          width: 64px;
+          width: 44px;
           margin-bottom: 10px; }
       .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .categorias .activa {
         border-color: #f1867a; }
@@ -496,7 +495,7 @@ body {
       gap: 40px; }
       .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .preguntas .contenedor_preguntas .contenedor_pregunta {
         background: #fff;
-        padding: 40px;
+        padding: 20px;
         border: 2px solid transparent;
         border-radius: 10px;
         overflow: hidden;
@@ -651,7 +650,21 @@ body {
       .contenedor_quienes_somos .pag_quienes_somos #quienes_somos p {
         width: 80%; }
     .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes {
-      overflow: hidden; } }
+      overflow: hidden; }
+      .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .categorias {
+        grid-template-columns: 1fr 1fr; }
+        .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .categorias .categoria {
+          padding: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 5px; }
+          .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .categorias .categoria img {
+            width: 30px;
+            margin-right: 10px;
+            margin-bottom: 0; }
+          .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .categorias .categoria p {
+            margin-bottom: 0; } }
 
 @media only screen and (max-width: 360px) {
   .contenedor_principal .main .imagenes_link {
@@ -671,4 +684,8 @@ body {
   .contenedor_actividades .pag_actividades h1 {
     font-size: 3rem; }
   .contenedor_quienes_somos .pag_quienes_somos #quienes_somos p {
-    width: 18rem; } }
+    width: 18rem; }
+  .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes h2 {
+    font-weight: 20; }
+  .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes .categorias {
+    grid-template-columns: 1fr; } }
