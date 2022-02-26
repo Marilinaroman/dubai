@@ -163,13 +163,19 @@
     }
     //-----Pagina Actividades-----//
     .contenedor_actividades{
+        grid-template-columns: 100%;
+		grid-template-rows: auto;
         .pag_actividades h1{
             margin-top: 1rem;
         }
         .seccion_act{
-            .card-deck{
-                width: 90%;
-                margin: 0.5rem;
+            grid-template-columns: 100%;
+            .row{
+                .card-deck{
+                    width: 90%;
+                    margin: 0.5rem;
+                }
+
             }
 
         }
@@ -255,8 +261,60 @@
     }
     //------Pagina actividades-----//
     .contenedor_actividades{
-        .pag_actividades h1{
+        .pag_actividades{ 
+            h1{
             font-size: 3rem;
+            }
+            .seccion_act{
+                .row{
+                    .card-deck{
+                        #safari{
+                            padding: 2px;
+                            .encabezado_safari{
+                                padding: 0;
+                            }
+                        }
+                        #parques{
+                            padding: 2px;
+                            .encabezado_parques{
+                                padding: 0;
+                            }
+                        }
+                        #palmera{
+                            padding: 2px;
+                            .encabezado_palmera{
+                                padding: 0;
+                            }
+                        }
+                        #mirador{
+                            padding: 2px;
+                            .encabezado_mirador{
+                                padding: 0;
+                            }
+                        }
+                        #mezquita{
+                            padding: 2px;
+                            .encabezado_mezquita{
+                                padding: 0;
+                            }
+                        }
+                        #rio{
+                            padding: 2px;
+                            .encabezado_rio{
+                                padding: 0;
+                            }
+                        }
+                        #ski{
+                            padding: 2px;
+                            .encabezado_ski{
+                                padding: 0;
+                            }
+                        }
+                    }
+    
+                }
+            
+            }
         }
     }
     //------Pagina quienes somos-----//

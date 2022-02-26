@@ -638,11 +638,16 @@ body {
       grid-template-columns: 100%;
       grid-template-rows: auto;
       margin: 0.5rem; }
-  .contenedor_actividades .pag_actividades h1 {
-    margin-top: 1rem; }
-  .contenedor_actividades .seccion_act .card-deck {
-    width: 90%;
-    margin: 0.5rem; }
+  .contenedor_actividades {
+    grid-template-columns: 100%;
+    grid-template-rows: auto; }
+    .contenedor_actividades .pag_actividades h1 {
+      margin-top: 1rem; }
+    .contenedor_actividades .seccion_act {
+      grid-template-columns: 100%; }
+      .contenedor_actividades .seccion_act .row .card-deck {
+        width: 90%;
+        margin: 0.5rem; }
   .contenedor_quienes_somos {
     grid-template-columns: 100%;
     grid-template-rows: auto; }
@@ -688,6 +693,34 @@ body {
     height: 13rem; }
   .contenedor_actividades .pag_actividades h1 {
     font-size: 3rem; }
+  .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari {
+    padding: 2px; }
+    .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari .encabezado_safari {
+      padding: 0; }
+  .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques {
+    padding: 2px; }
+    .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques .encabezado_parques {
+      padding: 0; }
+  .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera {
+    padding: 2px; }
+    .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera .encabezado_palmera {
+      padding: 0; }
+  .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador {
+    padding: 2px; }
+    .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador .encabezado_mirador {
+      padding: 0; }
+  .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita {
+    padding: 2px; }
+    .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita .encabezado_mezquita {
+      padding: 0; }
+  .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio {
+    padding: 2px; }
+    .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio .encabezado_rio {
+      padding: 0; }
+  .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski {
+    padding: 2px; }
+    .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski .encabezado_ski {
+      padding: 0; }
   .contenedor_quienes_somos .pag_quienes_somos #quienes_somos p {
     width: 18rem; }
   .contenedor_quienes_somos .pag_quienes_somos #preguntas_frecuentes h2 {
