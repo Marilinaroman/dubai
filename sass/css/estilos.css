@@ -103,9 +103,10 @@ footer {
       justify-content: stretch; }
       .contenedor_principal .main .articulo_inicio .h1_inicio {
         font-family: 'Lora', serif;
-        color: #fff2e4;
+        color: white;
         text-align: center;
-        width: 25%; }
+        width: 25%;
+        text-shadow: -3px -3px 3px black; }
       .contenedor_principal .main .articulo_inicio #carouselExampleControls {
         width: 100%; }
     .contenedor_principal .main .texto_principal_largo {
@@ -126,7 +127,7 @@ footer {
       margin-bottom: 1rem; }
     .contenedor_principal .main .titulo_act {
       background-color: #ebb6ae;
-      color: #fff2e4;
+      color: white;
       text-align: center; }
     .contenedor_principal .main .imagenes_link {
       display: grid;
@@ -158,7 +159,7 @@ footer {
           opacity: 0; }
           .contenedor_principal .main .imagenes_link .imagenes .capa a {
             text-decoration: none;
-            color: #fff2e4;
+            color: white;
             text-transform: uppercase; }
         .contenedor_principal .main .imagenes_link .imagenes:hover > .capa {
           opacity: 1;
@@ -193,7 +194,8 @@ body {
       align-items: center;
       color: white; }
       .contenedor_historia .pag_historia .historia_inicio .h1_historia {
-        font-size: 4rem; }
+        font-size: 4rem;
+        text-shadow: -3px -3px 3px black; }
     .contenedor_historia .pag_historia .intro {
       text-align: center; }
     .contenedor_historia .pag_historia .historia {
@@ -216,15 +218,17 @@ body {
     font-family: sans-serif;
     grid-area: pag_cultura; }
     .contenedor_cultura .pag_cultura .h1_cultura {
-      background-image: linear-gradient(to bottom, #fb6f62, #fa7d70, #f88b7e, #f5988d, #f1a59b, #f1b0a4, #f1bbad, #f0c5b8, #f4d1c1, #f7dccc, #fbe7d7, #fff2e4);
+      background-image: url(../../Imagenes/cultura1.jpg);
+      background-position: top center;
+      background-repeat: no-repeat;
       width: 100%;
-      height: 6rem;
+      height: 450px;
       display: flex;
       align-content: flex-start;
       justify-content: center;
       align-items: center;
       color: white;
-      border-radius: 10px;
+      text-shadow: -3px -3px 3px black;
       font-size: 4rem; }
     .contenedor_cultura .pag_cultura .cultura_largo {
       color: #666666; }
@@ -272,16 +276,17 @@ body {
     width: 100%; }
     .contenedor_actividades .pag_actividades h1 {
       display: flex;
-      background-image: url(../../Imagenes/actividades.jpg);
+      background-image: url(../../Imagenes/actividades1.jpg);
       background-position: center;
       background-repeat: no-repeat;
       width: 100%;
-      height: 250px;
+      height: 450px;
       align-content: flex-end;
       justify-content: center;
       align-items: center;
       color: white;
-      font-size: 4rem; }
+      font-size: 4rem;
+      text-shadow: -3px -3px 3px black; }
     .contenedor_actividades .pag_actividades .seccion_act {
       background-color: #f0eeeef3;
       display: grid;
@@ -311,6 +316,12 @@ body {
               .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari .encabezado_safari .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari .encabezado_safari:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari .encabezado_safari:focus:hover {
                 background-color: #f09182c4;
                 border-color: #f1867a; }
+            .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari .encabezado_safari div {
+              overflow: hidden; }
+              .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari .encabezado_safari div img {
+                transition: .4s ease; }
+                .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari .encabezado_safari div img:hover {
+                  transform: scale(1.5); }
           .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari .info_safari {
             text-align: justify; }
         .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques {
@@ -329,6 +340,12 @@ body {
               .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques .encabezado_parques .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques .encabezado_parques:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques .encabezado_parques:focus:hover {
                 background-color: #f09182c4;
                 border-color: #f1867a; }
+            .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques .encabezado_parques div {
+              overflow: hidden; }
+              .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques .encabezado_parques div img {
+                transition: .4s ease; }
+                .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques .encabezado_parques div img:hover {
+                  transform: scale(1.5); }
           .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #parques .info_parques {
             text-align: justify; }
         .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera {
@@ -347,6 +364,12 @@ body {
               .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera .encabezado_palmera .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera .encabezado_palmera:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera .encabezado_palmera:focus:hover {
                 background-color: #f09182c4;
                 border-color: #f1867a; }
+            .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera .encabezado_palmera div {
+              overflow: hidden; }
+              .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera .encabezado_palmera div img {
+                transition: .4s ease; }
+                .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera .encabezado_palmera div img:hover {
+                  transform: scale(1.5); }
           .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #palmera .info_palmera {
             text-align: justify; }
         .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador {
@@ -365,6 +388,12 @@ body {
               .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador .encabezado_mirador .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador .encabezado_mirador:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador .encabezado_mirador:focus:hover {
                 background-color: #f09182c4;
                 border-color: #f1867a; }
+            .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador .encabezado_mirador div {
+              overflow: hidden; }
+              .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador .encabezado_mirador div img {
+                transition: .4s ease; }
+                .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador .encabezado_mirador div img:hover {
+                  transform: scale(1.5); }
           .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mirador .info_mirador {
             text-align: justify; }
         .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita {
@@ -383,6 +412,12 @@ body {
               .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita .encabezado_mezquita .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita .encabezado_mezquita:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita .encabezado_mezquita:focus:hover {
                 background-color: #f09182c4;
                 border-color: #f1867a; }
+            .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita .encabezado_mezquita div {
+              overflow: hidden; }
+              .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita .encabezado_mezquita div img {
+                transition: .4s ease; }
+                .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita .encabezado_mezquita div img:hover {
+                  transform: scale(1.5); }
           .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #mezquita .info_mezquita {
             text-align: justify; }
         .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio {
@@ -401,6 +436,12 @@ body {
               .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio .encabezado_rio .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio .encabezado_rio:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio .encabezado_rio:focus:hover {
                 background-color: #f09182c4;
                 border-color: #f1867a; }
+            .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio .encabezado_rio div {
+              overflow: hidden; }
+              .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio .encabezado_rio div img {
+                transition: .4s ease; }
+                .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio .encabezado_rio div img:hover {
+                  transform: scale(1.5); }
           .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #rio .info_rio {
             text-align: justify; }
         .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski {
@@ -419,6 +460,12 @@ body {
               .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski .encabezado_ski .btn-primary:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski .encabezado_ski:visited:hover, .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski .encabezado_ski:focus:hover {
                 background-color: #f09182c4;
                 border-color: #f1867a; }
+            .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski .encabezado_ski div {
+              overflow: hidden; }
+              .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski .encabezado_ski div img {
+                transition: .4s ease; }
+                .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski .encabezado_ski div img:hover {
+                  transform: scale(1.5); }
           .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #ski .info_ski {
             text-align: justify; }
   .contenedor_actividades .footer {
@@ -577,8 +624,6 @@ body {
       .header nav .navbar_visible .navbar-item-link {
         color: white;
         line-height: 4rem; }
-        .header nav .navbar_visible .navbar-item-link:hover {
-          color: #eeb9b0; }
   .contenedor_principal {
     grid-template-columns: 100%;
     grid-template-rows: auto; }
@@ -586,7 +631,7 @@ body {
       display: block; }
       .contenedor_principal .main .articulo_inicio .h1_inicio {
         width: 100%;
-        margin-top: 2em;
+        margin-top: 2rem;
         margin-bottom: 1rem; }
     .contenedor_principal .main .texto_principal_largo {
       margin: 1rem; }
@@ -614,7 +659,6 @@ body {
     grid-template-rows: auto; }
     .contenedor_cultura .pag_cultura .h1_cultura {
       margin-top: 4rem;
-      height: 3rem;
       font-size: 2.5rem; }
     .contenedor_cultura .pag_cultura .cultura_largo .gastro {
       margin: 0.5rem; }

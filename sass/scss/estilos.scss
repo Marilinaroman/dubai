@@ -132,9 +132,10 @@ footer{
                 justify-content: stretch;
                 .h1_inicio{
                     font-family: 'Lora', serif;
-                    color: map-get($colores,fondoFooter);
+                    color: map-get($colores,blanco);
                     text-align: center;
                     width: 25%;
+                    text-shadow: -3px -3px 3px $negro;
                 }
                 #carouselExampleControls{
                     width: 100%;
@@ -162,7 +163,7 @@ footer{
             }
             .titulo_act{
                 background-color: map-get($colores,fondoImgFirst);
-                color: map-get($colores,fondoFooter);
+                color: map-get($colores,blanco);
                 text-align: center;
             }
             .imagenes_link{
@@ -196,7 +197,7 @@ footer{
                         opacity: 0;
                         a{
                             text-decoration: none;
-                            color: map-get($colores,fondoFooter);
+                            color: map-get($colores,blanco);
                             text-transform: uppercase;
                         }
                     }
@@ -230,7 +231,6 @@ body{
         color: #666666;
         overflow: hidden;
         background-color: map-get($colores,fondo);
-
         .historia_inicio{
             display: flex;
             background-image: url("../../Imagenes/historia.jpg");
@@ -242,9 +242,9 @@ body{
             justify-content: center;
             align-items: center;
             color: map-get($colores,blanco);
-            
             .h1_historia{
                 font-size: 4rem;
+                text-shadow: -3px -3px 3px $negro;
             }
         }
         .intro{
@@ -278,15 +278,17 @@ body{
         font-family: sans-serif;
         grid-area: pag_cultura;
         .h1_cultura{
-            background-image: linear-gradient(to bottom, #fb6f62, #fa7d70, #f88b7e, #f5988d, #f1a59b, #f1b0a4, #f1bbad, #f0c5b8, #f4d1c1, #f7dccc, #fbe7d7, #fff2e4);
+            background-image: url(../../Imagenes/cultura1.jpg);
+            background-position: top center;
+            background-repeat: no-repeat;
             width: 100%;
-            height: 6rem;
+            height: 450px;
             display: flex;
             align-content: flex-start;
             justify-content: center;
             align-items: center;
             color: map-get($colores,blanco);
-            border-radius: 10px;
+            text-shadow: -3px -3px 3px $negro;
             font-size: 4rem;
         }
         .cultura_largo{
@@ -346,16 +348,17 @@ body{
         width: 100%;
         h1{
             display: flex;
-            background-image: url(../../Imagenes/actividades.jpg);
+            background-image: url(../../Imagenes/actividades1.jpg);
             background-position: center;
             background-repeat: no-repeat;
             width: 100%;
-            height: 250px;
+            height: 450px;
             align-content: flex-end;
             justify-content: center;
             align-items: center;
             color: map-get($colores,blanco);
             font-size: 4rem;
+            text-shadow: -3px -3px 3px $negro;
         }
         .seccion_act{
             background-color: map-get($colores,fondo);
@@ -392,7 +395,15 @@ body{
                                         border-color:map-get($colores,bordeBotonHover);
                                     }
                                 }
-                                
+                            div{
+                                overflow: hidden;
+                                img{
+                                transition: .4s ease;
+                                &:hover {
+                                    transform: scale(1.5); 
+                                }
+                                }
+                            }
                         }
                         .info_safari{    
                             text-align: justify;
@@ -414,6 +425,15 @@ body{
                                         border-color:map-get($colores,bordeBotonHover);
                                     }
                                 }
+                            div{
+                                overflow: hidden;
+                                img{
+                                transition: .4s ease;
+                                &:hover {
+                                    transform: scale(1.5); 
+                                }
+                                }
+                            }
                         }
                         .info_parques{    
                             text-align: justify;
@@ -435,6 +455,15 @@ body{
                                         border-color:map-get($colores,bordeBotonHover);
                                     }
                                 }
+                            div{
+                                overflow: hidden;
+                                img{
+                                transition: .4s ease;
+                                &:hover {
+                                    transform: scale(1.5); 
+                                }
+                                }
+                            }
                         }
                         .info_palmera{    
                             text-align: justify;
@@ -455,6 +484,15 @@ body{
                                         background-color: map-get($colores,estiloBotonHover);
                                         border-color:map-get($colores,bordeBotonHover);
                                     }
+                                }
+                            div{
+                                overflow: hidden;
+                                img{
+                                transition: .4s ease;
+                                &:hover {
+                                    transform: scale(1.5); 
+                                }
+                                }
                             }
                         }
                         .info_mirador{    
@@ -477,6 +515,15 @@ body{
                                         border-color:map-get($colores,bordeBotonHover);
                                     }
                             }
+                            div{
+                                overflow: hidden;
+                                img{
+                                transition: .4s ease;
+                                &:hover {
+                                    transform: scale(1.5); 
+                                }
+                                }
+                            }
                         }
                         .info_mezquita{    
                             text-align: justify;
@@ -498,6 +545,15 @@ body{
                                         border-color:map-get($colores,bordeBotonHover);
                                     }
                             }
+                            div{
+                                overflow: hidden;
+                                img{
+                                transition: .4s ease;
+                                &:hover {
+                                    transform: scale(1.5); 
+                                }
+                                }
+                            }
                         }
                         .info_rio{    
                             text-align: justify;
@@ -518,6 +574,15 @@ body{
                                         background-color: map-get($colores,estiloBotonHover);
                                         border-color:map-get($colores,bordeBotonHover);
                                     }
+                            }
+                            div{
+                                overflow: hidden;
+                                img{
+                                transition: .4s ease;
+                                &:hover {
+                                    transform: scale(1.5); 
+                                }
+                                }
                             }
                         }
                         .info_ski{    
