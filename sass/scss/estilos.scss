@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
 }
 *::selection{
     background: map-get($colores,fondoN);
@@ -123,6 +124,9 @@ footer{
     grid-template-areas: "header"
     "main"
     "footer";
+        .header{
+            grid-area: header;
+        }
         .main{
             grid-area: main;
             .articulo_inicio{
@@ -209,6 +213,9 @@ footer{
                 }
             }
         }
+        .footer{
+        grid-area: footer;
+    }
 }
 body{
     font-family: sans-serif;
@@ -602,7 +609,6 @@ body{
 .contenedor_contacto{
     font-size: 1rem;
     display: grid;
-    grid-gap:2rem;
     grid-template-rows: 80px auto auto;
     grid-template-areas: "header"
     "pag_contacto"

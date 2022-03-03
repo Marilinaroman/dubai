@@ -33,15 +33,15 @@
             </nav>
         </header>
         <main class="pag_contacto">
-            <h1>Contactanos</h1>
+            <h1>Contáctanos</h1>
             <div class="d-flex justify-content-center">
-                <form class="row g-2" action="validar.php" method="get">
+                <form class="row g-2" action="validar.php" method="get" >
                     <fieldset>
                         <legend>Ingrese sus datos personales</legend>
                         <div class="form-group">
                             <!--Nombre y Apellido-->                                          
                             <label for="nombre"> Nombre y Apellido</label>
-                            <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Ingrese Nombre y Apellido..." minlength="10" maxlength="50">
+                            <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Ingrese Nombre y Apellido..." minlength="10" maxlength="50" required>
                         </div>
                         <div class="form-group">
                             <!--Correo-->
@@ -59,12 +59,12 @@
                         <div class="form-group">
                             <!--Fecha-->                                      
                             <label for="fecha">Fecha</label>
-                            <input class="form-control" type="date" name="fecha" id="fecha_tour">
+                            <input class="form-control" type="date" name="fecha" id="fecha_tour" required>
                         </div>
                         <div class="form-group input-group mb-3">
                             <!--Tour-->                                     
                             <label class="input-group-text" for="tour" >Tour</label>
-                            <select class="form-select" name="tour" id="tour">
+                            <select class="form-select" name="tour" id="tour" required>
                                 <option hidden selected>Seleccione un Tour</option>
                                 <option value="safari">Safari por el desierto</option>
                                 <option value="parques">Parques acuaticos</option>
@@ -78,7 +78,7 @@
                         <div class="form-group input-group mb-3">
                             <!--Adultos-->                                         
                             <label class="input-group-text" for="adultos">Adultos</label>
-                            <select class="form-select" name="adultos" id="adultos">
+                            <select class="form-select" name="adultos" id="adultos" required>
                                 <option value="0">0</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -91,7 +91,7 @@
                         <div class="form-group input-group mb-3">
                             <!--Niños-->
                             <label class="input-group-text" for="menores">Menores de edad</label>
-                            <select class="form-select" name="menores" id="menores">
+                            <select class="form-select" name="menores" id="menores" required>
                                 <option value="0">0</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>

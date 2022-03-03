@@ -79,9 +79,9 @@
             .articulo_inicio{
                 display: block;
                 .h1_inicio{
+                    text-align: center;
                     width: 100%;
                     margin-top: 2rem;
-                    margin-bottom: 1rem;
                 }
             }
             .texto_principal_largo{
@@ -123,7 +123,6 @@
         .pag_cultura{
             .h1_cultura{
                 margin-top: 4rem;
-                font-size: 2.5rem;
             }
             .cultura_largo{
                 .gastro{
@@ -229,13 +228,24 @@
             }
         }    
     }
+    //----Pagina Historia-----//
+    .contenedor_historia{
+        .pag_historia{
+            .historia_inicio{
+                .h1_historia{
+                font-size: 3rem;
+                text-align: center; 
+                }
+            }
+        }    
+    }
     //-----Pagina cultura-----//
     .contenedor_cultura{
         .pag_cultura{
             .h1_cultura{
                 margin-top: 4rem;
-                height: 3rem;
-                font-size: 2rem;
+                font-size: 3rem;
+                text-align: center;
             }
             .cultura_largo{
                 .idioma{
@@ -260,6 +270,7 @@
         .pag_actividades{ 
             h1{
             font-size: 3rem;
+            text-align: center;
             }
             .seccion_act{
                 .row{

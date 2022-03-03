@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif; }
 
 *::selection {
   background: #f1a59b;
@@ -94,6 +95,8 @@ footer {
   grid-gap: 20px;
   grid-template-rows: 80px auto auto;
   grid-template-areas: "header" "main" "footer"; }
+  .contenedor_principal .header {
+    grid-area: header; }
   .contenedor_principal .main {
     grid-area: main; }
     .contenedor_principal .main .articulo_inicio {
@@ -165,6 +168,8 @@ footer {
           opacity: 1;
           visibility: visible;
           text-align: center; }
+  .contenedor_principal .footer {
+    grid-area: footer; }
 
 body {
   font-family: sans-serif; }
@@ -474,7 +479,6 @@ body {
 .contenedor_contacto {
   font-size: 1rem;
   display: grid;
-  grid-gap: 2rem;
   grid-template-rows: 80px auto auto;
   grid-template-areas: "header" "pag_contacto" "footer"; }
   .contenedor_contacto .header {
@@ -630,9 +634,9 @@ body {
     .contenedor_principal .main .articulo_inicio {
       display: block; }
       .contenedor_principal .main .articulo_inicio .h1_inicio {
+        text-align: center;
         width: 100%;
-        margin-top: 2rem;
-        margin-bottom: 1rem; }
+        margin-top: 2rem; }
     .contenedor_principal .main .texto_principal_largo {
       margin: 1rem; }
     .contenedor_principal .main .mapa_dubai {
@@ -658,8 +662,7 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: auto; }
     .contenedor_cultura .pag_cultura .h1_cultura {
-      margin-top: 4rem;
-      font-size: 2.5rem; }
+      margin-top: 4rem; }
     .contenedor_cultura .pag_cultura .cultura_largo .gastro {
       margin: 0.5rem; }
     .contenedor_cultura .pag_cultura .cultura_largo .idioma {
@@ -724,10 +727,13 @@ body {
   .contenedor_principal .main .imagenes_link {
     grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6";
     justify-items: center; }
+  .contenedor_historia .pag_historia .historia_inicio .h1_historia {
+    font-size: 3rem;
+    text-align: center; }
   .contenedor_cultura .pag_cultura .h1_cultura {
     margin-top: 4rem;
-    height: 3rem;
-    font-size: 2rem; }
+    font-size: 3rem;
+    text-align: center; }
   .contenedor_cultura .pag_cultura .cultura_largo .idioma .expresiones {
     width: 100%; }
     .contenedor_cultura .pag_cultura .cultura_largo .idioma .expresiones .video_exp {
@@ -736,7 +742,8 @@ body {
     width: 18rem;
     height: 13rem; }
   .contenedor_actividades .pag_actividades h1 {
-    font-size: 3rem; }
+    font-size: 3rem;
+    text-align: center; }
   .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari {
     padding: 2px; }
     .contenedor_actividades .pag_actividades .seccion_act .row .card-deck #safari .encabezado_safari {
