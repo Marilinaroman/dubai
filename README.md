@@ -14,7 +14,7 @@ El Sitio WEB contiene las siguientes páginas:
 <li>Quienes somos</li>
 </ul>
 
-*Este proyecto fue realizado con HTML, SASS, Javascript y en algunos apartados se incluyo Bootstrap 5*
+*Este proyecto fue realizado con HTML, SASS, Javascript y en algunos apartados se incluyo Bootstrap*
 
 <br>
 
@@ -28,7 +28,7 @@ El Sitio WEB contiene las siguientes páginas:
 
 ## Instalacion
 
-**Clonar el repositorio.**
+*Para clonar el repositorio.*
 
 ```shell
 #Via HTTPS:
@@ -48,7 +48,7 @@ $ npm install
 
 ## SASS 
 
-**Para generar el archivo estilos.css use:**
+**Para generar el archivo estilos.css :**
 
 ```shell
 # Se debe ejecutar el archivo package.json script,
@@ -66,20 +66,23 @@ $ npm run watch-css
 
 ## Ramas o Branches de GIT
 
-**The project contains some deprecated branches:**
+**Este proyecto contiene las Branches:**
 
 <ul>
-<li>🎃 final-details</li>
-<li>☠️ flexbox-grids</li>
-<li>👻 latest-details</li>
-<li>⚰️ sass-tmp</li>
-<li>🪦 tmp-animations</li>
+<li>Main</li>
+<li>Develop</li>
+<li>Bootstrap</li>
+<li>B_complementario</li>
+<li>Develop_sass</li>
+<li>Desafio_sass</li>
+<li>Segunda_entrega</li>
+<li>Desafio_seo</li>
+<li>Organización</li>
+<li>Final</li>
 </ul>
-
-*You can watch them to see the progress & evolution of the project.*
 
 <br>
 
-## Contributing
+## Contribuciones
 
-*Pull requests are welcome. **For major changes, please open an issue first to discuss what you would like to change.***
+*Son bienvenidos los Pull requests y las criticas constructivas. Gracias!*
