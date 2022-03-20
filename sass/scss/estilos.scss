@@ -77,19 +77,30 @@ footer{
             display: flex;
             flex-direction: row;
             justify-content: center;
+            input{
+                outline: 0;
+                box-shadow: none;
+                &:focus{
+                    border-color:map-get($colores,estiloBoton);
+                }
+            }
             .email_suscripcion{
                 width: 50%;
             }
             .btn-primary,
-                    &:visited,
                     &:focus {
                         background-color: map-get($colores,estiloBoton);
                         border-color:map-get($colores,estiloBoton);
+                        outline: none;
                         &:hover{
                             background-color: map-get($colores,estiloBotonHover);
                             border-color:map-get($colores,bordeBotonHover);
                         }
                     }
+            .btn:focus {
+                outline: none;
+                box-shadow: none;
+            }
         }
     }
     .enlaces{
@@ -216,9 +227,6 @@ footer{
         .footer{
         grid-area: footer;
     }
-}
-body{
-    font-family: sans-serif;
 }
 //-----------Pagina Historia----------//
 
@@ -402,6 +410,10 @@ body{
                                         border-color:map-get($colores,bordeBotonHover);
                                     }
                                 }
+                            .btn:focus {
+                                outline: none;
+                                box-shadow: none;
+                            }
                             div{
                                 overflow: hidden;
                                 img{
@@ -432,6 +444,10 @@ body{
                                         border-color:map-get($colores,bordeBotonHover);
                                     }
                                 }
+                            .btn:focus {
+                                outline: none;
+                                box-shadow: none;
+                            }
                             div{
                                 overflow: hidden;
                                 img{
@@ -462,6 +478,10 @@ body{
                                         border-color:map-get($colores,bordeBotonHover);
                                     }
                                 }
+                            .btn:focus {
+                                outline: none;
+                                box-shadow: none;
+                            }
                             div{
                                 overflow: hidden;
                                 img{
@@ -492,6 +512,10 @@ body{
                                         border-color:map-get($colores,bordeBotonHover);
                                     }
                                 }
+                            .btn:focus {
+                                outline: none;
+                                box-shadow: none;
+                            }
                             div{
                                 overflow: hidden;
                                 img{
@@ -522,6 +546,10 @@ body{
                                         border-color:map-get($colores,bordeBotonHover);
                                     }
                             }
+                            .btn:focus {
+                                outline: none;
+                                box-shadow: none;
+                                }
                             div{
                                 overflow: hidden;
                                 img{
@@ -552,6 +580,10 @@ body{
                                         border-color:map-get($colores,bordeBotonHover);
                                     }
                             }
+                            .btn:focus {
+                                outline: none;
+                                box-shadow: none;
+                                }
                             div{
                                 overflow: hidden;
                                 img{
@@ -582,6 +614,10 @@ body{
                                         border-color:map-get($colores,bordeBotonHover);
                                     }
                             }
+                            .btn:focus {
+                                outline: none;
+                                box-shadow: none;
+                                }
                             div{
                                 overflow: hidden;
                                 img{
@@ -636,8 +672,18 @@ body{
                             background-color: #f09182c4;
                             border-color:#f1867a;
                         }
-                    }    
-            
+                    }
+                .btn:focus {
+                    outline: none;
+                    box-shadow: none;
+                }    
+                input,select,textarea{
+                    outline: 0;
+                    box-shadow: none;
+                    &:focus{
+                        border-color:map-get($colores,estiloBoton);
+                    }
+                }
             }    
         }
     }    

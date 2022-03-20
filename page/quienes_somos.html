@@ -33,6 +33,7 @@
                 </ul>        
             </nav>
         </header>
+
         <main class="pag_quienes_somos">
             <section id="quienes_somos">
                 <!-- Quienes somos-->
@@ -44,6 +45,7 @@
                     <iframe src="https://www.google.com/maps/d/embed?mid=1LSFgkQs05hIMpY8JQBYZwZdPaYQ&ehbc=2E312F" width="400" height="400" style="border:0;" aria-hidden="false" tabindex="0" allowfullscreen="" loading="lazy" frameborder=”0”></iframe>
                 </div>
             </section>
+
             <section id="preguntas_frecuentes">
                 <!--Preguntas Frecuentes-->
                 <h2 class="fs-3">Preguntas Frecuentes</h2>
@@ -65,37 +67,44 @@
                         <p>Más</p>
                     </div>
                 </div>
+
                 <div class="preguntas">
                     <div  class="contenedor_preguntas activo" data-categoria="reserva">
                         <div class="contenedor_pregunta">
                             <p clas="pregunta">¿Cómo realizó una reserva?</p>
                             <p class="respuesta">Complete el formulario de contacto informando sus datos personales y el Tour que desea reservar, una vez enviado el mismo le llegará a su casilla de e-mail nuestro presupuesto y el link correspondiente para realizar el pago.</p>
                         </div>
+
                         <div  class="contenedor_pregunta">
                             <p clas="pregunta">¿Puedo cancelar una reserva?</p>
                             <p class="respuesta"> Sí. Cuando la cancelación se realice con una anticipación de 48hs, se reintegrará al medio de pago seleccionado la totalidad del monto. En caso de cancelar la reserva fuera del plazo indicado, se realizará la devolución unicamente del 50% de dicho monto.</p>
                         </div>
+
                         <div  class="contenedor_pregunta">
                             <p clas="pregunta" >¿Puedo reprogramar una reserva?</p>
                             <p class="respuesta" >Sí. Con una anticipación de 48hs se puede reprogramar el Tour.</p>
                         </div>
+
                         <div  class="contenedor_pregunta">
                             <p clas="pregunta" >¿Cómo obtengo el ticket y la factura de mi reserva?</p>
                             <p class="respuesta">Una vez realizado el pago, envíaremos mediante e-mail, el ticket digital correspondiente al Tour reservado, junto con la factura emitida.</p>
                         </div>
                     </div>
+
                     <div class="contenedor_preguntas" data-categoria="metodo_pago">
                         <div  class="contenedor_pregunta">
                             <p clas="pregunta" >¿Qué métodos de pago aceptan?</p>
                             <p class="respuesta">El pago se puede realizar mediante transferencia bancaria, tarjeta de débito, tarjeta de crédito, criptomonedas y PayPal.</p>
                         </div>
                     </div>
+
                     <div class="contenedor_preguntas" data-categoria="covid">
                         <div  class="contenedor_pregunta">
                             <p clas="pregunta" >¿Tienen protocolo Covid-19?</p>
                             <p class="respuesta">Sí, los Tours se realizan con un aforo del 50% con el objetivo de facilitar el distanciamiento social. Además, nuestros guías son testeados semanalmente y previo a realizar cada excursión les brindamos barbijo y alcohol en gel, los cuáles serán de uso obligatorio.</p>
                         </div>
                     </div>
+                    
                     <div class="contenedor_preguntas" data-categoria="otros">
                         <div  class="contenedor_pregunta">
                             <p clas="pregunta" >¿Puedo llevar a mi máscota al tour?</p>
@@ -110,8 +119,8 @@
             <div class="suscripcion">
                 <p class="texto_suscripcion">¡SUSCRIBITE A NUESTRA NEWSLETTER!</p>
                 <div class="dato_suscripcion">
-                    <input class="email_suscripcion form-control" type="email" name="email" id="email" placeholder="Tu email">
-                    <button class="btn btn-primary btn-sm" type="submit">Suscribirme</button>
+                    <input class="form-control email_suscripcion" type="email" name="email" placeholder="Tu email" id="mail_suscripcion" required>
+                    <button class="btn btn-primary btn-sm boton_suscripcion" type="submit" onclick="suscripcion()">Suscribirme</button>
                 </div>
             </div>
             <div class="enlaces">
