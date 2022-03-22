@@ -520,7 +520,8 @@ footer {
       padding: 0.5rem; }
       .contenedor_contacto .pag_contacto fieldset div .btn-primary, .contenedor_contacto .pag_contacto fieldset div:visited, .contenedor_contacto .pag_contacto fieldset div:focus {
         background-color: #f09082;
-        border-color: #f09082; }
+        border-color: #f09082;
+        margin: 0.25rem; }
         .contenedor_contacto .pag_contacto fieldset div .btn-primary:hover, .contenedor_contacto .pag_contacto fieldset div:visited:hover, .contenedor_contacto .pag_contacto fieldset div:focus:hover {
           background-color: #f09182c4;
           border-color: #f1867a; }
